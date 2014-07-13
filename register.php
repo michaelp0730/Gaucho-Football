@@ -1,19 +1,9 @@
-<?php include './_config/base.php'; ?>
-<!DOCTYPE HTML>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gaucho Football - Register</title>
-  <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif] -->
-  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600" />
-  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-  <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
-  <link rel="stylesheet" type="text/css" href="css/custom.css" />
-</head>
-<body>
+<?php
+    $title = 'Register | Gaucho Football';
+    $pick_games_active = false;
+    $view_picks_active = false;
+    include './_includes/header.php';
+?>
     <div class="container-fluid">
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-8 col-md-offset-2">
