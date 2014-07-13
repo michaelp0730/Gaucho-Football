@@ -1,0 +1,70 @@
+body {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 { font-weight: 600; }
+
+.login-container-outer {
+    position: relative;
+    padding: 20px 20px 0;
+}
+
+.login-container-inner { padding: 0 1em 1em; }
+
+.login-container-inner div { margin: 1em 0; }
+
+.dates {
+    float: right;
+    font-weight: 300;
+    font-style: italic;
+    font-size: small;
+    color: #666;
+}
+
+.team-icons-container {
+    position: relative;
+    float: right;
+    width: 70%;
+}
+
+.at { font-weight: 600; font-size: 3em; }
+
+.form-instructions { float: right; margin-right: 15px; }
+
+.panel-body { clear: both; }
+
+.main-footer {
+    text-align: center;
+    font-size: x-small;
+    color: #222;
+    font-style: italic;
+    padding: 1em;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    background: #EEE;
+    margin-top: 2em;
+}
+
+.pick-logo { display: block; cursor: pointer; }
+
+.team-name { text-align: center; padding: 10px; }
+
+input[type=radio] { margin: 10px 0 0 67px; }
+
+input[type=text] { width: 50%; min-width: 100px; }
+
+.submit-button-container { width: 100%; margin-top: 15px; }
+
+.submit-picks-btn { margin-top: 15px; }
+
+.right { float: right !important; }
+.left { float: left !important; }
+.abs-right { position: absolute !important; right: 0; }
+.abs-left { position: absolute !important; left: 0; }
+.abs-top { position: absolute !important; top: 0; }
+.abs-bottom: { position: absolute !important; bottom: 0; }
+.top-right { position: absolute !important; top: 0; right: 0; }
+.bottom-right { position: absolute !important; bottom: 0; right: 0; }
+.top-left { position: absolute !important; top: 0; left: 0; }
+.bottom-left { position: absolute !important; bottom: 0; left: 0; }

@@ -1,0 +1,1657 @@
+[
+    {
+        "id": "wk1",
+        "week": "Week 1",
+        "dates": "September 4, 7, 8 - 2014",
+        "games": [
+            {
+                "id": "wk1gm1",
+                "away": "GB",
+                "home": "SEA",
+                "gametime": "2014-09-04T20:30:00-04:00"
+            },
+            {
+                "id": "wk1gm2",
+                "away": "NO",
+                "home": "ATL",
+                "gametime": "2014-09-07T13:00:00-04:00"
+            },
+            {
+                "id": "wk1gm3",
+                "away": "MIN",
+                "home": "STL",
+                "gametime": "2014-09-07T13:00:00-04:00"
+            },
+            {
+                "id": "wk1gm4",
+                "away": "CLE",
+                "home": "PIT",
+                "gametime": "2014-09-07T13:00:00-04:00"
+            },
+            {
+                "id": "wk1gm5",
+                "away": "JAX",
+                "home": "PHI",
+                "gametime": "2014-09-07T13:00:00-04:00"
+            },
+            {
+                "id": "wk1gm6",
+                "away": "OAK",
+                "home": "NYJ",
+                "gametime": "2014-09-07T13:00:00-04:00"
+            },
+            {
+                "id": "wk1gm7",
+                "away": "CIN",
+                "home": "BAL",
+                "gametime": "2014-09-07T13:00:00-04:00"
+            },
+            {
+                "id": "wk1gm8",
+                "away": "BUF",
+                "home": "CHI",
+                "gametime": "2014-09-07T13:00:00-04:00"
+            },
+            {
+                "id": "wk1gm9",
+                "away": "WSH",
+                "home": "HOU",
+                "gametime": "2014-09-07T13:00:00-04:00"
+            },
+            {
+                "id": "wk1gm10",
+                "away": "TEN",
+                "home": "KC",
+                "gametime": "2014-09-07T13:00:00-04:00"
+            },
+            {
+                "id": "wk1gm11",
+                "away": "NE",
+                "home": "MIA",
+                "gametime": "2014-09-07T13:00:00-04:00"
+            },
+            {
+                "id": "wk1gm12",
+                "away": "CAR",
+                "home": "TB",
+                "gametime": "2014-09-07T16:25:00-04:00"
+            },
+            {
+                "id": "wk1gm13",
+                "away": "SF",
+                "home": "DAL",
+                "gametime": "2014-09-07T16:25:00-04:00"
+            },
+            {
+                "id": "wk1gm14",
+                "away": "IND",
+                "home": "DEN",
+                "gametime": "2014-09-07T20:30:00-04:00"
+            },
+            {
+                "id": "wk1gm15",
+                "away": "NYG",
+                "home": "DET",
+                "gametime": "2014-09-08T19:10:00-04:00"
+            },
+            {
+                "id": "wk1gm16",
+                "away": "SD",
+                "home": "ARI",
+                "gametime": "2014-09-08T22:20:00-04:00"
+            }
+        ]
+    },
+    {
+        "id": "wk2",
+        "week": "Week 2",
+        "dates": "September 11, 14, 15 - 2014",
+        "games": [
+            {
+                "id": "wk2gm1",
+                "away": "PIT",
+                "home": "BAL",
+                "gametime": "2014-09-11T20:25:00-04:00"
+            },
+            {
+                "id": "wk2gm2",
+                "away": "MIA",
+                "home": "BUF",
+                "gametime": "2014-09-14T13:00:00-04:00"
+            },
+            {
+                "id": "wk2gm3",
+                "away": "JAX",
+                "home": "WSH",
+                "gametime": "2014-09-14T13:00:00-04:00"
+            },
+            {
+                "id": "wk2gm4",
+                "away": "DAL",
+                "home": "TEN",
+                "gametime": "2014-09-14T13:00:00-04:00"
+            },
+            {
+                "id": "wk2gm5",
+                "away": "ARI",
+                "home": "NYG",
+                "gametime": "2014-09-14T13:00:00-04:00"
+            },
+            {
+                "id": "wk2gm6",
+                "away": "NE",
+                "home": "MIN",
+                "gametime": "2014-09-14T13:00:00-04:00"
+            },
+            {
+                "id": "wk2gm7",
+                "away": "NO",
+                "home": "CLE",
+                "gametime": "2014-09-14T13:00:00-04:00"
+            },
+            {
+                "id": "wk2gm8",
+                "away": "ATL",
+                "home": "CIN",
+                "gametime": "2014-09-14T13:00:00-04:00"
+            },
+            {
+                "id": "wk2gm9",
+                "away": "DET",
+                "home": "CAR",
+                "gametime": "2014-09-14T13:00:00-04:00"
+            },
+            {
+                "id": "wk2gm10",
+                "away": "STL",
+                "home": "TB",
+                "gametime": "2014-09-14T16:05:00-04:00"
+            },
+            {
+                "id": "wk2gm11",
+                "away": "SEA",
+                "home": "SD",
+                "gametime": "2014-09-14T16:05:00-04:00"
+            },
+            {
+                "id": "wk2gm12",
+                "away": "HOU",
+                "home": "OAK",
+                "gametime": "2014-09-14T16:25:00-04:00"
+            },
+            {
+                "id": "wk2gm13",
+                "away": "NYJ",
+                "home": "GB",
+                "gametime": "2014-09-14T16:25:00-04:00"
+            },
+            {
+                "id": "wk2gm14",
+                "away": "KC",
+                "home": "DEN",
+                "gametime": "2014-09-14T16:25:00-04:00"
+            },
+            {
+                "id": "wk2gm15",
+                "away": "CHI",
+                "home": "SF",
+                "gametime": "2014-09-14T20:30:00-04:00"
+            },
+            {
+                "id": "wk2gm16",
+                "away": "PHI",
+                "home": "IND",
+                "gametime": "2014-09-15T20:30:00-04:00"
+            }
+        ]
+    },
+    {
+        "id": "wk3",
+        "week": "Week 3",
+        "dates": "September 18, 21, 22 - 2014",
+        "games": [
+            {
+                "id": "wk3gm1",
+                "away": "TB",
+                "home": "ATL",
+                "gametime": "2014-09-18T20:25:00-04:00"
+            },
+            {
+                "id": "wk3gm2",
+                "away": "SD",
+                "home": "BUF",
+                "gametime": "2014-09-21T13:00:00-04:00"
+            },
+            {
+                "id": "wk3gm3",
+                "away": "DAL",
+                "home": "STL",
+                "gametime": "2014-09-21T13:00:00-04:00"
+            },
+            {
+                "id": "wk3gm4",
+                "away": "WSH",
+                "home": "PHI",
+                "gametime": "2014-09-21T13:00:00-04:00"
+            },
+            {
+                "id": "wk3gm5",
+                "away": "HOU",
+                "home": "NYG",
+                "gametime": "2014-09-21T13:00:00-04:00"
+            },
+            {
+                "id": "wk3gm6",
+                "away": "MIN",
+                "home": "NO",
+                "gametime": "2014-09-21T13:00:00-04:00"
+            },
+            {
+                "id": "wk3gm7",
+                "away": "TEN",
+                "home": "CIN",
+                "gametime": "2014-09-21T13:00:00-04:00"
+            },
+            {
+                "id": "wk3gm8",
+                "away": "BAL",
+                "home": "CLE",
+                "gametime": "2014-09-21T13:00:00-04:00"
+            },
+            {
+                "id": "wk3gm9",
+                "away": "GB",
+                "home": "DET",
+                "gametime": "2014-09-21T13:00:00-04:00"
+            },
+            {
+                "id": "wk3gm10",
+                "away": "IND",
+                "home": "JAX",
+                "gametime": "2014-09-21T13:00:00-04:00"
+            },
+            {
+                "id": "wk3gm11",
+                "away": "OAK",
+                "home": "NE",
+                "gametime": "2014-09-21T13:00:00-04:00"
+            },
+            {
+                "id": "wk3gm12",
+                "away": "SF",
+                "home": "ARI",
+                "gametime": "2014-09-21T16:05:00-04:00"
+            },
+            {
+                "id": "wk3gm13",
+                "away": "DEN",
+                "home": "SEA",
+                "gametime": "2014-09-21T16:25:00-04:00"
+            },
+            {
+                "id": "wk3gm14",
+                "away": "KC",
+                "home": "MIA",
+                "gametime": "2014-09-21T16:25:00-04:00"
+            },
+            {
+                "id": "wk3gm15",
+                "away": "PIT",
+                "home": "CAR",
+                "gametime": "2014-09-21T20:30:00-04:00"
+            },
+            {
+                "id": "wk3gm16",
+                "away": "CHI",
+                "home": "NYJ",
+                "gametime": "2014-09-22T20:30:00-04:00"
+            }
+        ]
+    },
+    {
+        "id": "wk4",
+        "week": "Week 4",
+        "dates": "September 25, 28, 29 - 2014",
+        "games": [
+            {
+                "id": "wk4gm1",
+                "away": "NYG",
+                "home": "WSH",
+                "gametime": "2014-09-25T20:25:00-04:00"
+            },
+            {
+                "id": "wk4gm2",
+                "away": "GB",
+                "home": "CHI",
+                "gametime": "2014-09-28T13:00:00-04:00"
+            },
+            {
+                "id": "wk4gm3",
+                "away": "BUF",
+                "home": "HOU",
+                "gametime": "2014-09-28T13:00:00-04:00"
+            },
+            {
+                "id": "wk4gm4",
+                "away": "TEN",
+                "home": "IND",
+                "gametime": "2014-09-28T13:00:00-04:00"
+            },
+            {
+                "id": "wk4gm5",
+                "away": "CAR",
+                "home": "BAL",
+                "gametime": "2014-09-28T13:00:00-04:00"
+            },
+            {
+                "id": "wk4gm6",
+                "away": "DET",
+                "home": "NYJ",
+                "gametime": "2014-09-28T13:00:00-04:00"
+            },
+            {
+                "id": "wk4gm7",
+                "away": "TB",
+                "home": "PIT",
+                "gametime": "2014-09-28T13:00:00-04:00"
+            },
+            {
+                "id": "wk4gm8",
+                "away": "MIA",
+                "home": "OAK",
+                "gametime": "2014-09-28T13:00:00-04:00"
+            },
+            {
+                "id": "wk4gm9",
+                "away": "JAX",
+                "home": "SD",
+                "gametime": "2014-09-28T16:05:00-04:00"
+            },
+            {
+                "id": "wk4gm10",
+                "away": "PHI",
+                "home": "SF",
+                "gametime": "2014-09-28T16:25:00-04:00"
+            },
+            {
+                "id": "wk4gm11",
+                "away": "ATL",
+                "home": "MIN",
+                "gametime": "2014-09-28T16:25:00-04:00"
+            },
+            {
+                "id": "wk4gm12",
+                "away": "NO",
+                "home": "DAL",
+                "gametime": "2014-09-28T20:30:00-04:00"
+            },
+            {
+                "id": "wk4gm13",
+                "away": "NE",
+                "home": "KC",
+                "gametime": "2014-09-29T20:30:00-04:00"
+            }
+        ]
+    },
+    {
+        "id": "wk5",
+        "week": "Week 5",
+        "dates": "October 2, 5, 6 - 2014",
+        "games": [
+            {
+                "id": "wk5gm1",
+                "away": "MIN",
+                "home": "GB",
+                "gametime": "2014-10-02T20:25:00-04:00"
+            },
+            {
+                "id": "wk5gm2",
+                "away": "CHI",
+                "home": "CAR",
+                "gametime": "2014-10-05T13:00:00-04:00"
+            },
+            {
+                "id": "wk5gm3",
+                "away": "CLE",
+                "home": "TEN",
+                "gametime": "2014-10-05T13:00:00-04:00"
+            },
+            {
+                "id": "wk5gm4",
+                "away": "STL",
+                "home": "PHI",
+                "gametime": "2014-10-05T13:00:00-04:00"
+            },
+            {
+                "id": "wk5gm5",
+                "away": "ATL",
+                "home": "NYG",
+                "gametime": "2014-10-05T13:00:00-04:00"
+            },
+            {
+                "id": "wk5gm6",
+                "away": "TB",
+                "home": "NO",
+                "gametime": "2014-10-05T13:00:00-04:00"
+            },
+            {
+                "id": "wk5gm7",
+                "away": "HOU",
+                "home": "DAL",
+                "gametime": "2014-10-05T13:00:00-04:00"
+            },
+            {
+                "id": "wk5gm8",
+                "away": "BUF",
+                "home": "DET",
+                "gametime": "2014-10-05T13:00:00-04:00"
+            },
+            {
+                "id": "wk5gm9",
+                "away": "BAL",
+                "home": "IND",
+                "gametime": "2014-10-05T13:00:00-04:00"
+            },
+            {
+                "id": "wk5gm10",
+                "away": "PIT",
+                "home": "JAX",
+                "gametime": "2014-10-05T13:00:00-04:00"
+            },
+            {
+                "id": "wk5gm11",
+                "away": "ARI",
+                "home": "DEN",
+                "gametime": "2014-10-05T16:05:00-04:00"
+            },
+            {
+                "id": "wk5gm12",
+                "away": "KC",
+                "home": "SF",
+                "gametime": "2014-10-05T16:25:00-04:00"
+            },
+            {
+                "id": "wk5gm13",
+                "away": "NYJ",
+                "home": "SD",
+                "gametime": "2014-10-05T16:25:00-04:00"
+            },
+            {
+                "id": "wk5gm14",
+                "away": "CIN",
+                "home": "NE",
+                "gametime": "2014-10-05T20:30:00-04:00"
+            },
+            {
+                "id": "wk5gm15",
+                "away": "SEA",
+                "home": "WSH",
+                "gametime": "2014-10-06T20:30:00-04:00"
+            }
+        ]
+    },
+    {
+        "id": "wk6",
+        "week": "Week 6",
+        "dates": "October 9, 12, 13 - 2014",
+        "games": [
+            {
+                "id": "wk6gm1",
+                "away": "IND",
+                "home": "HOU",
+                "gametime": "2014-10-09T20:25:00-04:00"
+            },
+            {
+                "id": "wk6gm2",
+                "away": "CHI",
+                "home": "ATL",
+                "gametime": "2014-10-12T13:00:00-04:00"
+            },
+            {
+                "id": "wk6gm3",
+                "away": "JAX",
+                "home": "TEN",
+                "gametime": "2014-10-12T13:00:00-04:00"
+            },
+            {
+                "id": "wk6gm4",
+                "away": "BAL",
+                "home": "TB",
+                "gametime": "2014-10-12T13:00:00-04:00"
+            },
+            {
+                "id": "wk6gm5",
+                "away": "DEN",
+                "home": "NYJ",
+                "gametime": "2014-10-12T13:00:00-04:00"
+            },
+            {
+                "id": "wk6gm6",
+                "away": "DET",
+                "home": "MIN",
+                "gametime": "2014-10-12T13:00:00-04:00"
+            },
+            {
+                "id": "wk6gm7",
+                "away": "NE",
+                "home": "BUF",
+                "gametime": "2014-10-12T13:00:00-04:00"
+            },
+            {
+                "id": "wk6gm8",
+                "away": "CAR",
+                "home": "CIN",
+                "gametime": "2014-10-12T13:00:00-04:00"
+            },
+            {
+                "id": "wk6gm9",
+                "away": "PIT",
+                "home": "CLE",
+                "gametime": "2014-10-12T13:00:00-04:00"
+            },
+            {
+                "id": "wk6gm10",
+                "away": "GB",
+                "home": "MIA",
+                "gametime": "2014-10-12T13:00:00-04:00"
+            },
+            {
+                "id": "wk6gm11",
+                "away": "SD",
+                "home": "OAK",
+                "gametime": "2014-10-12T16:05:00-04:00"
+            },
+            {
+                "id": "wk6gm12",
+                "away": "DAL",
+                "home": "SEA",
+                "gametime": "2014-10-12T16:25:00-04:00"
+            },
+            {
+                "id": "wk6gm13",
+                "away": "WSH",
+                "home": "ARI",
+                "gametime": "2014-10-12T16:25:00-04:00"
+            },
+            {
+                "id": "wk6gm14",
+                "away": "NYG",
+                "home": "PHI",
+                "gametime": "2014-10-12T20:30:00-04:00"
+            },
+            {
+                "id": "wk6gm15",
+                "away": "SF",
+                "home": "STL",
+                "gametime": "2014-10-13T20:30:00-04:00"
+            }
+        ]
+    },
+    {
+        "id": "wk7",
+        "week": "Week 7",
+        "dates": "October 16, 19, 20 - 2014",
+        "games": [
+            {
+                "id": "wk7gm1",
+                "away": "NYJ",
+                "home": "NE",
+                "gametime": "2014-10-16T20:25:00-04:00"
+            },
+            {
+                "id": "wk7gm2",
+                "away": "ATL",
+                "home": "BAL",
+                "gametime": "2014-10-19T13:00:00-04:00"
+            },
+            {
+                "id": "wk7gm3",
+                "away": "TEN",
+                "home": "WSH",
+                "gametime": "2014-10-19T13:00:00-04:00"
+            },
+            {
+                "id": "wk7gm4",
+                "away": "SEA",
+                "home": "STL",
+                "gametime": "2014-10-19T13:00:00-04:00"
+            },
+            {
+                "id": "wk7gm5",
+                "away": "CLE",
+                "home": "JAX",
+                "gametime": "2014-10-19T13:00:00-04:00"
+            },
+            {
+                "id": "wk7gm6",
+                "away": "CIN",
+                "home": "IND",
+                "gametime": "2014-10-19T13:00:00-04:00"
+            },
+            {
+                "id": "wk7gm7",
+                "away": "MIN",
+                "home": "BUF",
+                "gametime": "2014-10-19T13:00:00-04:00"
+            },
+            {
+                "id": "wk7gm8",
+                "away": "MIA",
+                "home": "CHI",
+                "gametime": "2014-10-19T13:00:00-04:00"
+            },
+            {
+                "id": "wk7gm9",
+                "away": "NO",
+                "home": "DET",
+                "gametime": "2014-10-19T13:00:00-04:00"
+            },
+            {
+                "id": "wk7gm10",
+                "away": "CAR",
+                "home": "GB",
+                "gametime": "2014-10-19T13:00:00-04:00"
+            },
+            {
+                "id": "wk7gm11",
+                "away": "KC",
+                "home": "SD",
+                "gametime": "2014-10-19T16:05:00-04:00"
+            },
+            {
+                "id": "wk7gm12",
+                "away": "ARI",
+                "home": "OAK",
+                "gametime": "2014-10-19T16:25:00-04:00"
+            },
+            {
+                "id": "wk7gm13",
+                "away": "NYG",
+                "home": "DAL",
+                "gametime": "2014-10-19T16:25:00-04:00"
+            },
+            {
+                "id": "wk7gm14",
+                "away": "SF",
+                "home": "DEN",
+                "gametime": "2014-10-19T20:30:00-04:00"
+            },
+            {
+                "id": "wk7gm15",
+                "away": "HOU",
+                "home": "PIT",
+                "gametime": "2014-10-20T20:30:00-04:00"
+            }
+        ]
+    },
+    {
+        "id": "wk8",
+        "week": "Week 8",
+        "dates": "October 23, 26, 27 - 2014",
+        "games": [
+            {
+                "id": "wk8gm1",
+                "away": "SD",
+                "home": "DEN",
+                "gametime": "2014-10-23T20:25:00-04:00"
+            },
+            {
+                "id": "wk8gm2",
+                "away": "DET",
+                "home": "ATL",
+                "gametime": "2014-10-26T13:00:00-04:00"
+            },
+            {
+                "id": "wk8gm3",
+                "away": "MIN",
+                "home": "TB",
+                "gametime": "2014-10-26T13:00:00-04:00"
+            },
+            {
+                "id": "wk8gm4",
+                "away": "BUF",
+                "home": "NYJ",
+                "gametime": "2014-10-26T13:00:00-04:00"
+            },
+            {
+                "id": "wk8gm5",
+                "away": "CHI",
+                "home": "NE",
+                "gametime": "2014-10-26T13:00:00-04:00"
+            },
+            {
+                "id": "wk8gm6",
+                "away": "SEA",
+                "home": "CAR",
+                "gametime": "2014-10-26T13:00:00-04:00"
+            },
+            {
+                "id": "wk8gm7",
+                "away": "MIA",
+                "home": "JAX",
+                "gametime": "2014-10-26T13:00:00-04:00"
+            },
+            {
+                "id": "wk8gm8",
+                "away": "BAL",
+                "home": "CIN",
+                "gametime": "2014-10-26T13:00:00-04:00"
+            },
+            {
+                "id": "wk8gm9",
+                "away": "HOU",
+                "home": "TEN",
+                "gametime": "2014-10-26T13:00:00-04:00"
+            },
+            {
+                "id": "wk8gm10",
+                "away": "STL",
+                "home": "KC",
+                "gametime": "2014-10-26T13:00:00-04:00"
+            },
+            {
+                "id": "wk8gm11",
+                "away": "PHI",
+                "home": "ARI",
+                "gametime": "2014-10-26T16:05:00-04:00"
+            },
+            {
+                "id": "wk8gm12",
+                "away": "IND",
+                "home": "PIT",
+                "gametime": "2014-10-26T16:25:00-04:00"
+            },
+            {
+                "id": "wk8gm13",
+                "away": "OAK",
+                "home": "CLE",
+                "gametime": "2014-10-26T16:25:00-04:00"
+            },
+            {
+                "id": "wk8gm14",
+                "away": "GB",
+                "home": "NO",
+                "gametime": "2014-10-26T20:30:00-04:00"
+            },
+            {
+                "id": "wk8gm15",
+                "away": "WSH",
+                "home": "DAL",
+                "gametime": "2014-10-27T20:30:00-04:00"
+            }
+        ]
+    },
+    {
+        "id": "wk9",
+        "week": "Week 9",
+        "dates": "October 30, November 2, 3 - 2014",
+        "games": [
+            {
+                "id": "wk9gm1",
+                "away": "NO",
+                "home": "CAR",
+                "gametime": "2014-10-30T20:25:00-04:00"
+            },
+            {
+                "id": "wk9gm2",
+                "away": "TB",
+                "home": "CLE",
+                "gametime": "2014-11-02T13:00:00-04:00"
+            },
+            {
+                "id": "wk9gm3",
+                "away": "ARI",
+                "home": "DAL",
+                "gametime": "2014-11-02T13:00:00-04:00"
+            },
+            {
+                "id": "wk9gm4",
+                "away": "PHI",
+                "home": "HOU",
+                "gametime": "2014-11-02T13:00:00-04:00"
+            },
+            {
+                "id": "wk9gm5",
+                "away": "NYJ",
+                "home": "KC",
+                "gametime": "2014-11-02T13:00:00-04:00"
+            },
+            {
+                "id": "wk9gm6",
+                "away": "JAX",
+                "home": "CIN",
+                "gametime": "2014-11-02T13:00:00-04:00"
+            },
+            {
+                "id": "wk9gm7",
+                "away": "SD",
+                "home": "MIA",
+                "gametime": "2014-11-02T13:00:00-04:00"
+            },
+            {
+                "id": "wk9gm8",
+                "away": "WSH",
+                "home": "MIN",
+                "gametime": "2014-11-02T13:00:00-04:00"
+            },
+            {
+                "id": "wk9gm9",
+                "away": "STL",
+                "home": "SF",
+                "gametime": "2014-11-02T16:05:00-04:00"
+            },
+            {
+                "id": "wk9gm10",
+                "away": "DEN",
+                "home": "NE",
+                "gametime": "2014-11-02T16:25:00-04:00"
+            },
+            {
+                "id": "wk9gm11",
+                "away": "OAK",
+                "home": "SEA",
+                "gametime": "2014-11-02T16:25:00-04:00"
+            },
+            {
+                "id": "wk9gm12",
+                "away": "BAL",
+                "home": "PIT",
+                "gametime": "2014-11-02T20:30:00-04:00"
+            },
+            {
+                "id": "wk9gm13",
+                "away": "IND",
+                "home": "NYG",
+                "gametime": "2014-11-03T20:30:00-04:00"
+            }
+        ]
+    },
+    {
+        "id": "wk10",
+        "week": "Week 10",
+        "dates": "November 6, 9, 10 - 2014",
+        "games": [
+            {
+                "id": "wk10gm1",
+                "away": "CLE",
+                "home": "CIN",
+                "gametime": "2014-11-06T20:25:00-04:00"
+            },
+            {
+                "id": "wk10gm2",
+                "away": "KC",
+                "home": "BUF",
+                "gametime": "2014-11-09T13:00:00-04:00"
+            },
+            {
+                "id": "wk10gm3",
+                "away": "MIA",
+                "home": "DET",
+                "gametime": "2014-11-09T13:00:00-04:00"
+            },
+            {
+                "id": "wk10gm4",
+                "away": "DAL",
+                "home": "JAX",
+                "gametime": "2014-11-09T13:00:00-04:00"
+            },
+            {
+                "id": "wk10gm5",
+                "away": "SF",
+                "home": "NO",
+                "gametime": "2014-11-09T13:00:00-04:00"
+            },
+            {
+                "id": "wk10gm6",
+                "away": "TEN",
+                "home": "BAL",
+                "gametime": "2014-11-09T13:00:00-04:00"
+            },
+            {
+                "id": "wk10gm7",
+                "away": "PIT",
+                "home": "NYJ",
+                "gametime": "2014-11-09T13:00:00-04:00"
+            },
+            {
+                "id": "wk10gm8",
+                "away": "ATL",
+                "home": "TB",
+                "gametime": "2014-11-09T13:00:00-04:00"
+            },
+            {
+                "id": "wk10gm9",
+                "away": "DEN",
+                "home": "OAK",
+                "gametime": "2014-11-09T16:05:00-04:00"
+            },
+            {
+                "id": "wk10gm10",
+                "away": "STL",
+                "home": "ARI",
+                "gametime": "2014-11-09T16:25:00-04:00"
+            },
+            {
+                "id": "wk10gm11",
+                "away": "NYG",
+                "home": "SEA",
+                "gametime": "2014-11-09T16:25:00-04:00"
+            },
+            {
+                "id": "wk10gm12",
+                "away": "CHI",
+                "home": "GB",
+                "gametime": "2014-11-09T20:30:00-04:00"
+            },
+            {
+                "id": "wk10gm13",
+                "away": "CAR",
+                "home": "PHI",
+                "gametime": "2014-11-10T20:30:00-04:00"
+            }
+        ]
+    },
+    {
+        "id": "wk11",
+        "week": "Week 11",
+        "dates": "November 13, 16, 17 - 2014",
+        "games": [
+            {
+                "id": "wk11gm1",
+                "away": "BUF",
+                "home": "MIA",
+                "gametime": "2014-11-13T20:25:00-04:00"
+            },
+            {
+                "id": "wk11gm2",
+                "away": "MIN",
+                "home": "CHI",
+                "gametime": "2014-11-16T13:00:00-04:00"
+            },
+            {
+                "id": "wk11gm3",
+                "away": "HOU",
+                "home": "CLE",
+                "gametime": "2014-11-16T13:00:00-04:00"
+            },
+            {
+                "id": "wk11gm4",
+                "away": "PHI",
+                "home": "GB",
+                "gametime": "2014-11-16T13:00:00-04:00"
+            },
+            {
+                "id": "wk11gm5",
+                "away": "SEA",
+                "home": "KC",
+                "gametime": "2014-11-16T13:00:00-04:00"
+            },
+            {
+                "id": "wk11gm6",
+                "away": "ATL",
+                "home": "CAR",
+                "gametime": "2014-11-16T13:00:00-04:00"
+            },
+            {
+                "id": "wk11gm7",
+                "away": "CIN",
+                "home": "NO",
+                "gametime": "2014-11-16T13:00:00-04:00"
+            },
+            {
+                "id": "wk11gm8",
+                "away": "TB",
+                "home": "WSH",
+                "gametime": "2014-11-16T13:00:00-04:00"
+            },
+            {
+                "id": "wk11gm9",
+                "away": "DEN",
+                "home": "STL",
+                "gametime": "2014-11-16T13:00:00-04:00"
+            },
+            {
+                "id": "wk11gm10",
+                "away": "SF",
+                "home": "NYG",
+                "gametime": "2014-11-16T13:00:00-04:00"
+            },
+            {
+                "id": "wk11gm11",
+                "away": "OAK",
+                "home": "SD",
+                "gametime": "2014-11-16T16:05:00-04:00"
+            },
+            {
+                "id": "wk11gm12",
+                "away": "DET",
+                "home": "ARI",
+                "gametime": "2014-11-16T16:25:00-04:00"
+            },
+            {
+                "id": "wk11gm13",
+                "away": "NE",
+                "home": "IND",
+                "gametime": "2014-11-16T20:30:00-04:00"
+            },
+            {
+                "id": "wk11gm14",
+                "away": "PIT",
+                "home": "TEN",
+                "gametime": "2014-11-17T20:30:00-04:00"
+            }
+        ]
+    },
+    {
+        "id": "wk12",
+        "week": "Week 12",
+        "dates": "November 20, 23, 24 - 2014",
+        "games": [
+            {
+                "id": "wk12gm1",
+                "away": "KC",
+                "home": "OAK",
+                "gametime": "2014-11-20T20:25:00-04:00"
+            },
+            {
+                "id": "wk12gm2",
+                "away": "CLE",
+                "home": "ATL",
+                "gametime": "2014-11-23T13:00:00-04:00"
+            },
+            {
+                "id": "wk12gm3",
+                "away": "TEN",
+                "home": "PHI",
+                "gametime": "2014-11-23T13:00:00-04:00"
+            },
+            {
+                "id": "wk12gm4",
+                "away": "DET",
+                "home": "NE",
+                "gametime": "2014-11-23T13:00:00-04:00"
+            },
+            {
+                "id": "wk12gm5",
+                "away": "GB",
+                "home": "MIN",
+                "gametime": "2014-11-23T13:00:00-04:00"
+            },
+            {
+                "id": "wk12gm6",
+                "away": "JAX",
+                "home": "IND",
+                "gametime": "2014-11-23T13:00:00-04:00"
+            },
+            {
+                "id": "wk12gm7",
+                "away": "CIN",
+                "home": "HOU",
+                "gametime": "2014-11-23T13:00:00-04:00"
+            },
+            {
+                "id": "wk12gm8",
+                "away": "NYJ",
+                "home": "BUF",
+                "gametime": "2014-11-23T13:00:00-04:00"
+            },
+            {
+                "id": "wk12gm9",
+                "away": "TB",
+                "home": "CHI",
+                "gametime": "2014-11-23T13:00:00-04:00"
+            },
+            {
+                "id": "wk12gm10",
+                "away": "ARI",
+                "home": "SEA",
+                "gametime": "2014-11-23T16:05:00-04:00"
+            },
+            {
+                "id": "wk12gm11",
+                "away": "STL",
+                "home": "SD",
+                "gametime": "2014-11-23T16:05:00-04:00"
+            },
+            {
+                "id": "wk12gm12",
+                "away": "MIA",
+                "home": "DEN",
+                "gametime": "2014-11-23T16:25:00-04:00"
+            },
+            {
+                "id": "wk12gm13",
+                "away": "WSH",
+                "home": "SF",
+                "gametime": "2014-11-23T16:25:00-04:00"
+            },
+            {
+                "id": "wk12gm14",
+                "away": "DAL",
+                "home": "NYG",
+                "gametime": "2014-11-23T20:30:00-04:00"
+            },
+            {
+                "id": "wk12gm15",
+                "away": "BAL",
+                "home": "NO",
+                "gametime": "2014-11-24T20:30:00-04:00"
+            }
+        ]
+    },
+    {
+        "id": "wk13",
+        "week": "Week 13",
+        "dates": "November 27, 30, December 1 - 2014",
+        "games": [
+            {
+                "id": "wk13gm1",
+                "away": "CHI",
+                "home": "DET",
+                "gametime": "2014-11-27T12:30:00-04:00"
+            },
+            {
+                "id": "wk13gm2",
+                "away": "PHI",
+                "home": "DAL",
+                "gametime": "2014-11-27T16:30:00-04:00"
+            },
+            {
+                "id": "wk13gm3",
+                "away": "SEA",
+                "home": "SF",
+                "gametime": "2014-11-27T20:30:00-04:00"
+            },
+            {
+                "id": "wk13gm4",
+                "away": "WSH",
+                "home": "IND",
+                "gametime": "2014-11-30T13:00:00-04:00"
+            },
+            {
+                "id": "wk13gm5",
+                "away": "TEN",
+                "home": "HOU",
+                "gametime": "2014-11-30T13:00:00-04:00"
+            },
+            {
+                "id": "wk13gm6",
+                "away": "CLE",
+                "home": "BUF",
+                "gametime": "2014-11-30T13:00:00-04:00"
+            },
+            {
+                "id": "wk13gm7",
+                "away": "SD",
+                "home": "BAL",
+                "gametime": "2014-11-30T13:00:00-04:00"
+            },
+            {
+                "id": "wk13gm8",
+                "away": "NYG",
+                "home": "JAX",
+                "gametime": "2014-11-30T13:00:00-04:00"
+            },
+            {
+                "id": "wk13gm9",
+                "away": "CIN",
+                "home": "TB",
+                "gametime": "2014-11-30T13:00:00-04:00"
+            },
+            {
+                "id": "wk13gm10",
+                "away": "OAK",
+                "home": "STL",
+                "gametime": "2014-11-30T13:00:00-04:00"
+            },
+            {
+                "id": "wk13gm11",
+                "away": "NO",
+                "home": "PIT",
+                "gametime": "2014-11-30T13:00:00-04:00"
+            },
+            {
+                "id": "wk13gm12",
+                "away": "CAR",
+                "home": "MIN",
+                "gametime": "2014-11-30T13:00:00-04:00"
+            },
+            {
+                "id": "wk13gm13",
+                "away": "ARI",
+                "home": "ATL",
+                "gametime": "2014-11-30T16:05:00-04:00"
+            },
+            {
+                "id": "wk13gm14",
+                "away": "NE",
+                "home": "GB",
+                "gametime": "2014-11-30T16:25:00-04:00"
+            },
+            {
+                "id": "wk13gm15",
+                "away": "DEN",
+                "home": "KC",
+                "gametime": "2014-11-30T20:30:00-04:00"
+            },
+            {
+                "id": "wk13gm16",
+                "away": "MIA",
+                "home": "NYJ",
+                "gametime": "2014-12-01T20:30:00-04:00"
+            }
+        ]
+    },
+    {
+        "id": "wk14",
+        "week": "Week 14",
+        "dates": "December 4, 7, 8 - 2014",
+        "games": [
+            {
+                "id": "wk14gm1",
+                "away": "DAL",
+                "home": "CHI",
+                "gametime": "2014-12-04T20:25:00-04:00"
+            },
+            {
+                "id": "wk14gm2",
+                "away": "PIT",
+                "home": "CIN",
+                "gametime": "2014-12-07T13:00:00-04:00"
+            },
+            {
+                "id": "wk14gm3",
+                "away": "STL",
+                "home": "WSH",
+                "gametime": "2014-12-07T13:00:00-04:00"
+            },
+            {
+                "id": "wk14gm4",
+                "away": "NYG",
+                "home": "TEN",
+                "gametime": "2014-12-07T13:00:00-04:00"
+            },
+            {
+                "id": "wk14gm5",
+                "away": "CAR",
+                "home": "NO",
+                "gametime": "2014-12-07T13:00:00-04:00"
+            },
+            {
+                "id": "wk14gm6",
+                "away": "NYJ",
+                "home": "MIN",
+                "gametime": "2014-12-07T13:00:00-04:00"
+            },
+            {
+                "id": "wk14gm7",
+                "away": "BAL",
+                "home": "MIA",
+                "gametime": "2014-12-07T13:00:00-04:00"
+            },
+            {
+                "id": "wk14gm8",
+                "away": "IND",
+                "home": "CLE",
+                "gametime": "2014-12-07T13:00:00-04:00"
+            },
+            {
+                "id": "wk14gm9",
+                "away": "TB",
+                "home": "DET",
+                "gametime": "2014-12-07T13:00:00-04:00"
+            },
+            {
+                "id": "wk14gm10",
+                "away": "HOU",
+                "home": "JAX",
+                "gametime": "2014-12-07T13:00:00-04:00"
+            },
+            {
+                "id": "wk14gm11",
+                "away": "BUF",
+                "home": "DEN",
+                "gametime": "2014-12-07T16:05:00-04:00"
+            },
+            {
+                "id": "wk14gm12",
+                "away": "KC",
+                "home": "ARI",
+                "gametime": "2014-12-07T16:05:00-04:00"
+            },
+            {
+                "id": "wk14gm13",
+                "away": "SEA",
+                "home": "PHI",
+                "gametime": "2014-12-07T16:25:00-04:00"
+            },
+            {
+                "id": "wk14gm14",
+                "away": "SF",
+                "home": "OAK",
+                "gametime": "2014-12-07T16:25:00-04:00"
+            },
+            {
+                "id": "wk14gm15",
+                "away": "NE",
+                "home": "SD",
+                "gametime": "2014-12-07T20:30:00-04:00"
+            },
+            {
+                "id": "wk14gm16",
+                "away": "ATL",
+                "home": "GB",
+                "gametime": "2014-12-08T20:30:00-04:00"
+            }
+        ]
+    },
+    {
+        "id": "wk15",
+        "week": "Week 15",
+        "dates": "December 11, 14, 15 - 2014",
+        "games": [
+            {
+                "id": "wk15gm1",
+                "away": "ARI",
+                "home": "STL",
+                "gametime": "2014-12-11T20:25:00-04:00"
+            },
+            {
+                "id": "wk15gm2",
+                "away": "PIT",
+                "home": "ATL",
+                "gametime": "2014-12-14T13:00:00-04:00"
+            },
+            {
+                "id": "wk15gm3",
+                "away": "WSH",
+                "home": "NYG",
+                "gametime": "2014-12-14T13:00:00-04:00"
+            },
+            {
+                "id": "wk15gm4",
+                "away": "MIA",
+                "home": "NE",
+                "gametime": "2014-12-14T13:00:00-04:00"
+            },
+            {
+                "id": "wk15gm5",
+                "away": "OAK",
+                "home": "KC",
+                "gametime": "2014-12-14T13:00:00-04:00"
+            },
+            {
+                "id": "wk15gm6",
+                "away": "HOU",
+                "home": "IND",
+                "gametime": "2014-12-14T13:00:00-04:00"
+            },
+            {
+                "id": "wk15gm7",
+                "away": "JAX",
+                "home": "BAL",
+                "gametime": "2014-12-14T13:00:00-04:00"
+            },
+            {
+                "id": "wk15gm8",
+                "away": "GB",
+                "home": "BUF",
+                "gametime": "2014-12-14T13:00:00-04:00"
+            },
+            {
+                "id": "wk15gm9",
+                "away": "TB",
+                "home": "CAR",
+                "gametime": "2014-12-14T13:00:00-04:00"
+            },
+            {
+                "id": "wk15gm10",
+                "away": "CIN",
+                "home": "CLE",
+                "gametime": "2014-12-14T13:00:00-04:00"
+            },
+            {
+                "id": "wk15gm11",
+                "away": "MIN",
+                "home": "DET",
+                "gametime": "2014-12-14T13:00:00-04:00"
+            },
+            {
+                "id": "wk15gm12",
+                "away": "NYJ",
+                "home": "TEN",
+                "gametime": "2014-12-14T16:05:00-04:00"
+            },
+            {
+                "id": "wk15gm13",
+                "away": "DEN",
+                "home": "SD",
+                "gametime": "2014-12-14T16:05:00-04:00"
+            },
+            {
+                "id": "wk15gm14",
+                "away": "SF",
+                "home": "SEA",
+                "gametime": "2014-12-14T16:25:00-04:00"
+            },
+            {
+                "id": "wk15gm15",
+                "away": "DAL",
+                "home": "PHI",
+                "gametime": "2014-12-14T20:30:00-04:00"
+            },
+            {
+                "id": "wk15gm16",
+                "away": "NO",
+                "home": "CHI",
+                "gametime": "2014-12-15T20:30:00-04:00"
+            }
+        ]
+    },
+    {
+        "id": "wk16",
+        "week": "Week 16",
+        "dates": "December 18, 20, 21 - 2014",
+        "games": [
+            {
+                "id": "wk16gm1",
+                "away": "TEN",
+                "home": "JAX",
+                "gametime": "2014-12-18T20:25:00-04:00"
+            },
+            {
+                "id": "wk16gm2",
+                "away": "SD",
+                "home": "SF",
+                "gametime": "2014-12-20T16:30:00-04:00"
+            },
+            {
+                "id": "wk16gm3",
+                "away": "PHI",
+                "home": "WSH",
+                "gametime": "2014-12-20T16:30:00-04:00"
+            },
+            {
+                "id": "wk16gm4",
+                "away": "MIN",
+                "home": "MIA",
+                "gametime": "2014-12-21T13:00:00-04:00"
+            },
+            {
+                "id": "wk16gm5",
+                "away": "BAL",
+                "home": "HOU",
+                "gametime": "2014-12-21T13:00:00-04:00"
+            },
+            {
+                "id": "wk16gm6",
+                "away": "DET",
+                "home": "CHI",
+                "gametime": "2014-12-21T13:00:00-04:00"
+            },
+            {
+                "id": "wk16gm7",
+                "away": "CLE",
+                "home": "CAR",
+                "gametime": "2014-12-21T13:00:00-04:00"
+            },
+            {
+                "id": "wk16gm8",
+                "away": "ATL",
+                "home": "NO",
+                "gametime": "2014-12-21T13:00:00-04:00"
+            },
+            {
+                "id": "wk16gm9",
+                "away": "GB",
+                "home": "TB",
+                "gametime": "2014-12-21T13:00:00-04:00"
+            },
+            {
+                "id": "wk16gm10",
+                "away": "KC",
+                "home": "PIT",
+                "gametime": "2014-12-21T13:00:00-04:00"
+            },
+            {
+                "id": "wk16gm11",
+                "away": "NE",
+                "home": "NYJ",
+                "gametime": "2014-12-21T13:00:00-04:00"
+            },
+            {
+                "id": "wk16gm12",
+                "away": "NYG",
+                "home": "STL",
+                "gametime": "2014-12-21T16:05:00-04:00"
+            },
+            {
+                "id": "wk16gm13",
+                "away": "BUF",
+                "home": "OAK",
+                "gametime": "2014-12-21T16:25:00-04:00"
+            },
+            {
+                "id": "wk16gm14",
+                "away": "IND",
+                "home": "DAL",
+                "gametime": "2014-12-21T16:25:00-04:00"
+            },
+            {
+                "id": "wk16g15",
+                "away": "SEA",
+                "home": "ARI",
+                "gametime": "2014-12-21T20:30:00-04:00"
+            },
+            {
+                "id": "wk16gm16",
+                "away": "DEN",
+                "home": "CIN",
+                "gametime": "2014-12-22T20:30:00-04:00"
+            }
+        ]
+    },
+    {
+        "id": "wk17",
+        "week": "Week 17",
+        "dates": "December 28 - 2014",
+        "games": [
+            {
+                "id": "wk17gm1",
+                "away": "CAR",
+                "home": "ATL",
+                "gametime": "2014-12-28T13:00:00-04:00"
+            },
+            {
+                "id": "wk17gm2",
+                "away": "CLE",
+                "home": "BAL",
+                "gametime": "2014-12-28T13:00:00-04:00"
+            },
+            {
+                "id": "wk17gm3",
+                "away": "DAL",
+                "home": "WSH",
+                "gametime": "2014-12-28T13:00:00-04:00"
+            },
+            {
+                "id": "wk17gm4",
+                "away": "IND",
+                "home": "TEN",
+                "gametime": "2014-12-28T13:00:00-04:00"
+            },
+            {
+                "id": "wk17gm5",
+                "away": "DET",
+                "home": "GB",
+                "gametime": "2014-12-28T13:00:00-04:00"
+            },
+            {
+                "id": "wk17gm6",
+                "away": "JAX",
+                "home": "HOU",
+                "gametime": "2014-12-28T13:00:00-04:00"
+            },
+            {
+                "id": "wk17gm7",
+                "away": "SD",
+                "home": "KC",
+                "gametime": "2014-12-28T13:00:00-04:00"
+            },
+            {
+                "id": "wk17gm8",
+                "away": "NYJ",
+                "home": "MIA",
+                "gametime": "2014-12-28T13:00:00-04:00"
+            },
+            {
+                "id": "wk17gm9",
+                "away": "CHI",
+                "home": "MIN",
+                "gametime": "2014-12-28T13:00:00-04:00"
+            },
+            {
+                "id": "wk17gm10",
+                "away": "BUF",
+                "home": "NE",
+                "gametime": "2014-12-28T13:00:00-04:00"
+            },
+            {
+                "id": "wk17gm11",
+                "away": "PHI",
+                "home": "NYG",
+                "gametime": "2014-12-28T13:00:00-04:00"
+            },
+            {
+                "id": "wk17gm13",
+                "away": "CIN",
+                "home": "PIT",
+                "gametime": "2014-12-28T13:00:00-04:00"
+            },
+            {
+                "id": "wk17gm14",
+                "away": "NO",
+                "home": "TB",
+                "gametime": "2014-12-28T13:00:00-04:00"
+            },
+            {
+                "id": "wk17gm15",
+                "away": "OAK",
+                "home": "DEN",
+                "gametime": "2014-12-28T16:25:00-04:00"
+            },
+            {
+                "id": "wk17gm16",
+                "away": "ARI",
+                "home": "SF",
+                "gametime": "2014-12-28T16:25:00-04:00"
+            },
+            {
+                "id": "wk17gm17",
+                "away": "STL",
+                "home": "SEA",
+                "gametime": "2014-12-28T16:25:00-04:00"
+            }
+        ]
+    }
+]
