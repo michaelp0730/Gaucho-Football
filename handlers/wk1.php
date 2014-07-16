@@ -20,12 +20,12 @@
     <nav class="navbar navbar-default" role="navigation">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" href="index.php">Gaucho Football</a>
+                <a class="navbar-brand" href="../index.php">Gaucho Football</a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li><a href="../index.php">Pick Games</a></li>
-                    <li><a href="view-picks.php">View Picks</a></li>
+                    <li><a href="../view-picks.php">View Picks</a></li>
                     <li class="dropdown abs-right">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?=$_SESSION['Username']?> <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
@@ -63,11 +63,10 @@
         $wk1gm15 = mysql_real_escape_string($_POST['wk1gm15']);
         $wk1gm16 = mysql_real_escape_string($_POST['wk1gm16']);
         $tiebreaker = mysql_real_escape_string($_POST['wk1-tiebreaker']);
-        $format = 'Y-m-d H:i:s';
-        //$due_date = new DateTime::createFromFormat($format, '2014-09-04T20:30:00-04:00');
-        $submission_time = new DateTime('now');
+        $due_date = strtotime('2014-09-04T20:30:00-04:00');
+        $submission_time = strtotime('now');
 
-        if ($submission_time < $due_date) {
+        if ($submission_time > $due_date) {
             echo '<div class="alert alert-danger" role="alert"><strong>Error:</strong> Your submission is too late. The first game of Week 1 has already started. Please try again next week.</div>';
         } else {
             echo '<div class="alert alert-success"><strong>Success!</strong> Your Week 1 picks have been recorded. <a href="../view-picks.php">Click here to view all picks.</a></div>';
