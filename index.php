@@ -2,7 +2,7 @@
     $title = 'Gaucho Football';
     $pick_games_active = true;
     $view_picks_active = false;
-    include './_includes/header.php';
+    require './_includes/header.php';
 ?>
     <div class="container-fluid">
         <div class="row">
