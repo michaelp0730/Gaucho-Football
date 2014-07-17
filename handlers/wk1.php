@@ -31,9 +31,9 @@ if (!empty($_POST['wk1gm1']) && !empty($_POST['wk1gm2']) && !empty($_POST['wk1gm
     if ($submission_time > $due_date) {
         echo '<div class="alert alert-danger" role="alert"><strong>Error:</strong> Your submission is too late. The first game of Week 1 has already started. Please try again next week.</div>';
     } else {
-        $submit_wk1 = mysql_query("INSERT INTO wk1 (Username, PicksDate, wk1gm1, wk1gm2, wk1gm3, wk1gm4, wk1gm5, wk1gm6, wk1gm7, wk1gm8,
+        $submit_wk1 = mysql_query("INSERT INTO wk1 (Username, wk1gm1, wk1gm2, wk1gm3, wk1gm4, wk1gm5, wk1gm6, wk1gm7, wk1gm8,
             wk1gm9, wk1gm10, wk1gm11, wk1gm12, wk1gm13, wk1gm14, wk1gm15, wk1gm16, MondayTotalPoints, wk1Complete)
-            VALUES('".$username."', '".$submission_time."', '".$wk1gm1."', '".$wk1gm2."', '".$wk1gm3."', '".$wk1gm4."', '".$wk1gm5."', '".$wk1gm6."',
+            VALUES('".$username."', '".$wk1gm1."', '".$wk1gm2."', '".$wk1gm3."', '".$wk1gm4."', '".$wk1gm5."', '".$wk1gm6."',
             '".$wk1gm7."', '".$wk1gm8."', '".$wk1gm9."', '".$wk1gm10."', '".$wk1gm11."', '".$wk1gm12."', '".$wk1gm13."', '".$wk1gm14."', '".$wk1gm15."',
             '".$wk1gm16."', '".$tiebreaker."', true)");
 
