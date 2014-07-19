@@ -13,8 +13,8 @@
 
         <form method="POST" action="handlers/{{id}}.php" name="{{id}}" id="{{id}}">
             <div id="panel-{{id}}" class="panel-collapse collapse">
-                <h6 class="form-instructions">Pick games by clicking team icons, then click the submit button at the bottom of the form.</h6>
                 <h6 class="form-instructions">Picks are due each week by Thursday at 5:30pm.</h6>
+                <h6 class="form-instructions">Pick games by clicking team icons, then click the submit button at the bottom of the form.</h6>
                 <div class="panel-body">
                     <form id="{{id}}-form" name="{{id}}-form" method="POST" action="home.php">
                     {{#each games}}

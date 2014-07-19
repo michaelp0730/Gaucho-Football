@@ -1,11 +1,11 @@
 (function () {
     'use strict';
     $.getJSON('./json/schedule.json', function(data) {
-        var scheduleTemplate = $('#schedule-template').html(),
-            compiledSchedule = Handlebars.compile(scheduleTemplate),
-            scheduleWrapper = {weeks: data},
+        var viewPicksTemplate = $('#view-picks-template').html(),
+            compiledPicks = Handlebars.compile(viewPicksTemplate),
+            picksWrapper = {weeks: data},
             gametimes;
-        $('#schedule-container').html(compiledSchedule(scheduleWrapper));
+        $('#view-picks-container').html(compiledPicks(picksWrapper));
 
         gametimes = $('.gametime');
         $.each(gametimes, function() {

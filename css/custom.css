@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 { font-weight: 600; }
 
 .at { font-weight: 600; font-size: 3em; }
 
-.form-instructions { float: right; margin-right: 15px; }
+.form-instructions { text-align: right; margin-right: 15px; }
 
 .panel-body { clear: both; }
 
