@@ -1,10 +1,10 @@
 <script id="schedule-template" type="text/x-handlebars-template">
 {{#each weeks}}
-<div class="panel-group" id="accordion">
+<div class="panel-group" id="{{id}}-accordion">
     <div class="panel panel-default">
         <div class="panel-heading">
             <h4 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#panel-{{id}}">
+                <a data-toggle="collapse" data-parent="#{{id}}-accordion" href="#panel-{{id}}">
                     {{week}}
                     <span class="dates">{{dates}}</span>
                 </a>
@@ -14,6 +14,7 @@
         <form method="POST" action="handlers/{{id}}.php" name="{{id}}" id="{{id}}">
             <div id="panel-{{id}}" class="panel-collapse collapse">
                 <h6 class="form-instructions">Pick games by clicking team icons, then click the submit button at the bottom of the form.</h6>
+                <h6 class="form-instructions">Picks are due each week by Thursday at 5:30pm.</h6>
                 <div class="panel-body">
                     <form id="{{id}}-form" name="{{id}}-form" method="POST" action="home.php">
                     {{#each games}}
