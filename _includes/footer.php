@@ -7,18 +7,12 @@
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 <script src="js/plugins/xdate.js"></script>
 
-<?php
-    if ($view_picks_active) {
-        include './_includes/view-picks-template.php';
-?>
-        <script src="js/view-picks.js"></script>
-<?php
-    } else {
-        include './_includes/schedule-template.php';
-?>
+<?php if ($view_picks_active) {
+        include './_includes/view-picks-template.php'; ?>
+        <script src="js/viewPicks.js"></script>
+<?php } else {
+        include './_includes/schedule-template.php'; ?>
         <script src="js/app.js"></script>
-<?php
-    }
-?>
+<?php } ?>
 </body>
 </html>
