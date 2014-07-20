@@ -134,30 +134,31 @@
                                             </thead>
                                             <?php
                                             $wk1_query = mysql_query("SELECT * FROM wk1 GROUP BY Username");
-                                            $wk1_total_wins = 0;
                                             if (mysql_num_rows($wk1_query) > 0) {
                                             ?>
                                             <tbody>
-                                            <?php while ($wk1row = mysql_fetch_array($wk1_query, MYSQL_NUM)) { ?>
+                                            <?php while ($wk1row = mysql_fetch_array($wk1_query, MYSQL_NUM)) {
+                                                $wk1_total_wins = 0;
+                                            ?>
                                                 <tr>
-                                                    <td><?php echo $wk1row[0]; ?> </td>
-                                                    <td><?php echo $wk1row[1]; ?> </td>
-                                                    <td class="<?php if ($wk1row[2] == 'NO') { echo 'success'; $wk1_total_wins++; } ?>"><?php echo $wk1row[2]; ?> </td>
-                                                    <td><?php echo $wk1row[3]; ?> </td>
-                                                    <td><?php echo $wk1row[4]; ?> </td>
-                                                    <td><?php echo $wk1row[5]; ?> </td>
-                                                    <td><?php echo $wk1row[6]; ?> </td>
-                                                    <td><?php echo $wk1row[7]; ?> </td>
-                                                    <td><?php echo $wk1row[8]; ?> </td>
-                                                    <td><?php echo $wk1row[9]; ?> </td>
-                                                    <td><?php echo $wk1row[10]; ?> </td>
-                                                    <td><?php echo $wk1row[11]; ?> </td>
-                                                    <td><?php echo $wk1row[12]; ?> </td>
-                                                    <td><?php echo $wk1row[13]; ?> </td>
-                                                    <td><?php echo $wk1row[14]; ?> </td>
-                                                    <td><?php echo $wk1row[15]; ?> </td>
-                                                    <td><?php echo $wk1row[16]; ?> </td>
-                                                    <td><?php echo $wk1row[17]; ?> </td>
+                                                    <td class="<?php if ($wk1row[0] == '') { echo 'success'; } ?>"><?php echo $wk1row[0]; ?> </td>
+                                                    <td class="<?php if ($wk1row[1] == '') { echo 'success'; $wk1_total_wins++; } ?>"><?php echo $wk1row[1]; ?> </td>
+                                                    <td class="<?php if ($wk1row[2] == '') { echo 'success'; $wk1_total_wins++; } ?>"><?php echo $wk1row[2]; ?> </td>
+                                                    <td class="<?php if ($wk1row[3] == '') { echo 'success'; $wk1_total_wins++; } ?>"><?php echo $wk1row[3]; ?> </td>
+                                                    <td class="<?php if ($wk1row[4] == '') { echo 'success'; $wk1_total_wins++; } ?>"><?php echo $wk1row[4]; ?> </td>
+                                                    <td class="<?php if ($wk1row[5] == '') { echo 'success'; $wk1_total_wins++; } ?>"><?php echo $wk1row[5]; ?> </td>
+                                                    <td class="<?php if ($wk1row[6] == '') { echo 'success'; $wk1_total_wins++; } ?>"><?php echo $wk1row[6]; ?> </td>
+                                                    <td class="<?php if ($wk1row[7] == '') { echo 'success'; $wk1_total_wins++; } ?>"><?php echo $wk1row[7]; ?> </td>
+                                                    <td class="<?php if ($wk1row[8] == '') { echo 'success'; $wk1_total_wins++; } ?>"><?php echo $wk1row[8]; ?> </td>
+                                                    <td class="<?php if ($wk1row[9] == '') { echo 'success'; $wk1_total_wins++; } ?>"><?php echo $wk1row[9]; ?> </td>
+                                                    <td class="<?php if ($wk1row[10] == '') { echo 'success'; $wk1_total_wins++; } ?>"><?php echo $wk1row[10]; ?> </td>
+                                                    <td class="<?php if ($wk1row[11] == '') { echo 'success'; $wk1_total_wins++; } ?>"><?php echo $wk1row[11]; ?> </td>
+                                                    <td class="<?php if ($wk1row[12] == '') { echo 'success'; $wk1_total_wins++; } ?>"><?php echo $wk1row[12]; ?> </td>
+                                                    <td class="<?php if ($wk1row[13] == '') { echo 'success'; $wk1_total_wins++; } ?>"><?php echo $wk1row[13]; ?> </td>
+                                                    <td class="<?php if ($wk1row[14] == '') { echo 'success'; $wk1_total_wins++; } ?>"><?php echo $wk1row[14]; ?> </td>
+                                                    <td class="<?php if ($wk1row[15] == '') { echo 'success'; $wk1_total_wins++; } ?>"><?php echo $wk1row[15]; ?> </td>
+                                                    <td class="<?php if ($wk1row[16] == '') { echo 'success'; $wk1_total_wins++; } ?>"><?php echo $wk1row[16]; ?> </td>
+                                                    <td class="<?php if ($wk1row[17] == '') { echo 'success'; $wk1_total_wins++; } ?>"><?php echo $wk1row[17]; ?> </td>
                                                     <td><?php echo $wk1_total_wins; ?></td>
                                                 </tr>
                                             <?php } ?>
