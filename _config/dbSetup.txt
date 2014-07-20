@@ -361,7 +361,6 @@ CREATE TABLE `wk17` (
 `wk17gm14` VARCHAR(5) NOT NULL ,
 `wk17gm15` VARCHAR(5) NOT NULL ,
 `wk17gm16` VARCHAR(5) NOT NULL ,
-`wk17gm17` VARCHAR(5) NOT NULL ,
 `MondayTotalPoints` INT(5) NOT NULL ,
 `wk17Complete` BOOL NOT NULL
 );
