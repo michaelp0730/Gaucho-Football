@@ -13,7 +13,28 @@
 
             <div id="view-picks-{{id}}-panel" class="panel-collapse collapse">
                 <div class="panel-body">
-                This is a test.
+                    <div class="table-responsive">
+                        <table class="table table-condensed table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <td>Username</td>
+                                    {{#each games}}
+                                    <td>
+                                        <div>{{away}}</div>
+                                        <div>@</div>
+                                        <div>{{home}}</div>
+                                    </td>
+                                    {{/each}}
+                                    <td>Monday Total Points</td>
+                                    <td>Total Wins</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
