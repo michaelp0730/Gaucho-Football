@@ -10,7 +10,7 @@
             <?php if (!empty($_SESSION['LoggedIn']) && !empty($_SESSION['Username'])) { ?>
                 <h1>View Picks</h1>
                 <div class="alert alert-info" role="alert">
-                    Alert - You won't be able to view everyone's picks for a week until you have entered your own picks for that week.
+                    Alert - You won't be able to view everyone's picks for a particular week until you have entered your own picks for that week.
                 </div>
                 <div id="view-picks-container">
                     <div id="view-picks-wk1-accordion" class="panel-group">
@@ -134,34 +134,34 @@
                                             </thead>
                                             <?php
                                             $wk1_query = mysql_query("SELECT * FROM wk1 GROUP BY Username");
-                                            $total_wins = 0;
+                                            $wk1_total_wins = 0;
                                             if (mysql_num_rows($wk1_query) > 0) {
                                             ?>
-                                                <tbody>
-                                                <?php while ($row = mysql_fetch_array($wk1_query, MYSQL_NUM)) { ?>
-                                                    <tr>
-                                                        <td><?php echo $row[0]; ?> </td>
-                                                        <td><?php echo $row[1]; ?> </td>
-                                                        <td><?php echo $row[2]; ?> </td>
-                                                        <td><?php echo $row[3]; ?> </td>
-                                                        <td><?php echo $row[4]; ?> </td>
-                                                        <td><?php echo $row[5]; ?> </td>
-                                                        <td><?php echo $row[6]; ?> </td>
-                                                        <td><?php echo $row[7]; ?> </td>
-                                                        <td><?php echo $row[8]; ?> </td>
-                                                        <td><?php echo $row[9]; ?> </td>
-                                                        <td><?php echo $row[10]; ?> </td>
-                                                        <td><?php echo $row[11]; ?> </td>
-                                                        <td><?php echo $row[12]; ?> </td>
-                                                        <td><?php echo $row[13]; ?> </td>
-                                                        <td><?php echo $row[14]; ?> </td>
-                                                        <td><?php echo $row[15]; ?> </td>
-                                                        <td><?php echo $row[16]; ?> </td>
-                                                        <td><?php echo $row[17]; ?> </td>
-                                                        <td><?php echo $total_wins; ?></td>
-                                                    </tr>
-                                                <?php } ?>
-                                                </tbody>
+                                            <tbody>
+                                            <?php while ($wk1row = mysql_fetch_array($wk1_query, MYSQL_NUM)) { ?>
+                                                <tr>
+                                                    <td><?php echo $wk1row[0]; ?> </td>
+                                                    <td><?php echo $wk1row[1]; ?> </td>
+                                                    <td class="<?php if ($wk1row[2] == 'NO') { echo 'success'; $wk1_total_wins++; } ?>"><?php echo $wk1row[2]; ?> </td>
+                                                    <td><?php echo $wk1row[3]; ?> </td>
+                                                    <td><?php echo $wk1row[4]; ?> </td>
+                                                    <td><?php echo $wk1row[5]; ?> </td>
+                                                    <td><?php echo $wk1row[6]; ?> </td>
+                                                    <td><?php echo $wk1row[7]; ?> </td>
+                                                    <td><?php echo $wk1row[8]; ?> </td>
+                                                    <td><?php echo $wk1row[9]; ?> </td>
+                                                    <td><?php echo $wk1row[10]; ?> </td>
+                                                    <td><?php echo $wk1row[11]; ?> </td>
+                                                    <td><?php echo $wk1row[12]; ?> </td>
+                                                    <td><?php echo $wk1row[13]; ?> </td>
+                                                    <td><?php echo $wk1row[14]; ?> </td>
+                                                    <td><?php echo $wk1row[15]; ?> </td>
+                                                    <td><?php echo $wk1row[16]; ?> </td>
+                                                    <td><?php echo $wk1row[17]; ?> </td>
+                                                    <td><?php echo $wk1_total_wins; ?></td>
+                                                </tr>
+                                            <?php } ?>
+                                            </tbody>
                                             <?php } ?>
                                         </table>
                                     </div>
