@@ -27,7 +27,7 @@
                             <div id="view-picks-wk1-panel" class="panel-collapse collapse in">
                                 <div class="panel-body">
                                     <div class="table-responsive">
-                                        <table class="table table-condensed table-bordered table-striped">
+                                        <table id="wk1-picks" class="table table-condensed table-bordered table-striped">
                                             <thead>
                                                 <tr>
                                                     <th>Username</th>
@@ -158,7 +158,7 @@
                             <div id="view-picks-wk2-panel" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <div class="table-responsive">
-                                        <table class="table table-condensed table-bordered table-striped">
+                                        <table id="wk2-picks" class="table table-condensed table-bordered table-striped">
                                             <thead>
                                                 <tr>
                                                     <th>Username</th>
@@ -289,7 +289,7 @@
                             <div id="view-picks-wk3-panel" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <div class="table-responsive">
-                                        <table class="table table-condensed table-bordered table-striped">
+                                        <table id="wk3-picks" class="table table-condensed table-bordered table-striped">
                                             <thead>
                                                 <tr>
                                                     <th>Username</th>
@@ -420,7 +420,7 @@
                             <div id="view-picks-wk4-panel" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <div class="table-responsive">
-                                        <table class="table table-condensed table-bordered table-striped">
+                                        <table id="wk4-picks" class="table table-condensed table-bordered table-striped">
                                             <thead>
                                                 <tr>
                                                     <th>Username</th>
@@ -533,7 +533,7 @@
                             <div id="view-picks-wk5-panel" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <div class="table-responsive">
-                                        <table class="table table-condensed table-bordered table-striped">
+                                        <table id="wk5-picks" class="table table-condensed table-bordered table-striped">
                                             <thead>
                                                 <tr>
                                                     <th>Username</th>
@@ -658,7 +658,7 @@
                             <div id="view-picks-wk6-panel" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <div class="table-responsive">
-                                        <table class="table table-condensed table-bordered table-striped">
+                                        <table id="wk6-picks" class="table table-condensed table-bordered table-striped">
                                             <thead>
                                                 <tr>
                                                     <th>Username</th>
@@ -783,7 +783,7 @@
                             <div id="view-picks-wk7-panel" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <div class="table-responsive">
-                                        <table class="table table-condensed table-bordered table-striped">
+                                        <table id="wk7-picks" class="table table-condensed table-bordered table-striped">
                                             <thead>
                                                 <tr>
                                                     <th>Username</th>
@@ -908,7 +908,7 @@
                             <div id="view-picks-wk8-panel" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <div class="table-responsive">
-                                        <table class="table table-condensed table-bordered table-striped">
+                                        <table id="wk8-picks" class="table table-condensed table-bordered table-striped">
                                             <thead>
                                                 <tr>
                                                     <th>Username</th>
@@ -1033,7 +1033,7 @@
                             <div id="view-picks-wk9-panel" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <div class="table-responsive">
-                                        <table class="table table-condensed table-bordered table-striped">
+                                        <table id="wk9-picks" class="table table-condensed table-bordered table-striped">
                                             <thead>
                                                 <tr>
                                                     <th>Username</th>
@@ -1146,7 +1146,7 @@
                             <div id="view-picks-wk10-panel" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <div class="table-responsive">
-                                        <table class="table table-condensed table-bordered table-striped">
+                                        <table id="wk10-picks" class="table table-condensed table-bordered table-striped">
                                             <thead>
                                                 <tr>
                                                     <th>Username</th>
@@ -1259,7 +1259,7 @@
                             <div id="view-picks-wk11-panel" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <div class="table-responsive">
-                                        <table class="table table-condensed table-bordered table-striped">
+                                        <table id="wk11-picks" class="table table-condensed table-bordered table-striped">
                                             <thead>
                                                 <tr>
                                                     <th>Username</th>
@@ -1378,7 +1378,7 @@
                             <div id="view-picks-wk12-panel" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <div class="table-responsive">
-                                        <table class="table table-condensed table-bordered table-striped">
+                                        <table id="wk12-picks" class="table table-condensed table-bordered table-striped">
                                             <thead>
                                                 <tr>
                                                     <th>Username</th>
@@ -1503,7 +1503,7 @@
                             <div id="view-picks-wk13-panel" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <div class="table-responsive">
-                                        <table class="table table-condensed table-bordered table-striped">
+                                        <table id="wk13-picks" class="table table-condensed table-bordered table-striped">
                                             <thead>
                                                 <tr>
                                                     <th>Username</th>
@@ -1634,7 +1634,7 @@
                             <div id="view-picks-wk14-panel" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <div class="table-responsive">
-                                        <table class="table table-condensed table-bordered table-striped">
+                                        <table id="wk14-picks" class="table table-condensed table-bordered table-striped">
                                             <thead>
                                                 <tr>
                                                     <th>Username</th>
@@ -1765,7 +1765,7 @@
                             <div id="view-picks-wk15-panel" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <div class="table-responsive">
-                                        <table class="table table-condensed table-bordered table-striped">
+                                        <table id="wk15-picks" class="table table-condensed table-bordered table-striped">
                                             <thead>
                                                 <tr>
                                                     <th>Username</th>
@@ -1896,7 +1896,7 @@
                             <div id="view-picks-wk16-panel" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <div class="table-responsive">
-                                        <table class="table table-condensed table-bordered table-striped">
+                                        <table id="wk16-picks" class="table table-condensed table-bordered table-striped">
                                             <thead>
                                                 <tr>
                                                     <th>Username</th>
@@ -2027,7 +2027,7 @@
                             <div id="view-picks-wk17-panel" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <div class="table-responsive">
-                                        <table class="table table-condensed table-bordered table-striped">
+                                        <table id="wk17-picks" class="table table-condensed table-bordered table-striped">
                                             <thead>
                                                 <tr>
                                                     <th>Username</th>
