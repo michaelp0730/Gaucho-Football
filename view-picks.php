@@ -133,8 +133,10 @@
                                                 </tr>
                                             </thead>
                                             <?php
+                                            $username = $_SESSION['Username'];
+                                            $show_wk1_query = mysql_query("SELECT wk1Complete FROM wk1 WHERE Username = '".$username."'");
                                             $wk1_query = mysql_query("SELECT * FROM wk1 GROUP BY Username");
-                                            if (mysql_num_rows($wk1_query) > 0) {
+                                            if (mysql_result($show_wk1_query, 0) == 1) {
                                             ?>
                                             <tbody>
                                             <?php while ($wk1row = mysql_fetch_array($wk1_query, MYSQL_NUM)) {
