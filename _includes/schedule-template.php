@@ -46,6 +46,9 @@
                             </tr>
                             <tr>
                                 <td align="center">
+                                    <div class="alert alert-info submission-alert" role="alert">
+                                        Alert - Your submissions for {{week}} will be final. You will not be able to re-submit picks for {{week}}. Click the submit button to complete your {{week}} picks.
+                                    </div>
                                     <input type="submit" name="{{id}}-submit" id="{{id}}-submit" value="Submit {{week}} Picks" class="btn btn-success submit-picks-btn" />
                                 </td>
                             </tr>
