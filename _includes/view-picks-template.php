@@ -17,20 +17,21 @@
                         <table class="table table-condensed table-bordered table-striped">
                             <thead>
                                 <tr>
-                                    <td>Username</td>
+                                    <th>Username</th>
                                     {{#each games}}
-                                    <td>
+                                    <th>
                                         <div>{{away}}</div>
                                         <div>@</div>
                                         <div>{{home}}</div>
-                                    </td>
+                                    </th>
                                     {{/each}}
-                                    <td>Monday Total Points</td>
-                                    <td>Total Wins</td>
+                                    <th>Monday Total Points</th>
+                                    <th>Total Wins</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
+
                                 </tr>
                             </tbody>
                         </table>

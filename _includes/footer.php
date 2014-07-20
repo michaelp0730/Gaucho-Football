@@ -6,13 +6,7 @@
 <script src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0-alpha.4/handlebars.min.js" type="text/javascript"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 <script src="js/plugins/xdate.js"></script>
-
-<?php if ($view_picks_active) {
-        include './_includes/view-picks-template.php'; ?>
-        <script src="js/viewPicks.js"></script>
-<?php } else {
-        include './_includes/schedule-template.php'; ?>
-        <script src="js/app.js"></script>
-<?php } ?>
+<script src="js/app.js"></script>
+<?php include './_includes/schedule-template.php'; ?>
 </body>
 </html>
