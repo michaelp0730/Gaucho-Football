@@ -54,6 +54,8 @@ input[type=radio] { margin: 10px 0 0 67px; }
 
 input[type=text] { width: 50%; min-width: 100px; }
 
+textarea { width: 100%; min-height: 100px; }
+
 .submit-button-container { width: 100%; margin-top: 15px; }
 
 .submission-alert { margin-top: 20px; }

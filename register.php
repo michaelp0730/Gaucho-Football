@@ -58,9 +58,7 @@
                                 <input type="submit" name="register" id="register" value="Register" class="btn btn-primary" />
                             </div>
                         </form>
-                    <?php
-                        }
-                    ?>
+                    <?php } ?>
                     </div>
                 </div>
             </div>
