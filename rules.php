@@ -14,9 +14,9 @@
                     <div class="panel panel-default login-container-inner">
                         <h3>By using this website you agree to the following rules. Failure to comply with these rules may result in the removal of your picks, or the removal of your account.</h3>
                         <ul class="rules-list">
-                            <li><strong>All picks are final.</strong> Once you submit your picks for a week, those picks are final and cannot be modified.</li>
+                            <li><strong>All picks are final.</strong> Once you submit your picks for a week, those picks cannot be modified.</li>
                             <li><strong>Picks for each week are due by Thursday at 5:30pm PST.</strong> Picks submitted later than 5:30pm on Thursday will be rejected.</li>
-                            <li><strong>The total points scored on Monday night will be used for a tie&ndash;breaker.</strong> In the event of a tie in number of wins in a week, the player who guesses <strong>CLOSEST</strong> to the actual number of total points scored by both teams combined on Monday night will be determined the winner.</li>
+                            <li>In the event of a tie in the number of wins in a week, <strong>the total points scored on Monday night will be used for a tie&ndash;breaker.</strong> The player who guesses <strong>CLOSEST</strong> to the total combined points scored on Monday night will be determined the winner.</li>
                         </ul>
                     </div>
                 </div>

@@ -2,7 +2,7 @@
         </div>
     </div>
     <footer class="main-footer">
-        Copyright &copy; <?php echo (date('Y') == 2014) ? '2014' : '2014 - ' . date('Y'); ?> | PellegriniPage.com | All Rights Reserved
+        Copyright &copy; <?php echo (date('Y') == 2014) ? '2014' : '2014 - ' . date('Y'); ?> | Gaucho Football | All Rights Reserved
     </footer>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript"></script>
