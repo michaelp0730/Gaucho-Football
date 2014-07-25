@@ -15,5 +15,9 @@
                 timeString = xdate.toLocaleTimeString();
             $(this).html('Kickoff: ' + dateString + ' ' + timeString);
         });
+
+        $('.submit-picks-btn').on('click', function(e) {
+            alert('Are you sure you want to submit these picks? Remember - all picks are final.');
+        });
     });
 }());
