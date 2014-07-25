@@ -22,10 +22,12 @@
             <div class="navbar-header">
                 <a class="navbar-brand" href="index.php">Gaucho Football</a>
             </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li class="<?php echo ($pick_games_active === true) ? 'active' : '' ?>"><a href="index.php">Pick Games</a></li>
                     <li class="<?php echo ($view_picks_active === true) ? 'active' : '' ?>"><a href="view-picks.php">View Picks</a></li>
+                    <li class="<?php echo ($rules_active === true) ? 'active' : '' ?>"><a href="rules.php">Rules</a></li>
+                    <li class="<?php echo ($help_active === true) ? 'active' : '' ?>"><a href="help.php">Help</a></li>
                     <li class="dropdown abs-right">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?=$_SESSION['Username']?> <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">

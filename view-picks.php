@@ -2,6 +2,8 @@
     $title = 'View Picks | Gaucho Football';
     $pick_games_active = false;
     $view_picks_active = true;
+    $rules_active = false;
+    $help_active = false;
     require '_includes/header.php';
 ?>
     <div class="container-fluid">
