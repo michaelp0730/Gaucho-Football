@@ -80,3 +80,19 @@ textarea { width: 100%; min-height: 100px; }
 .bottom-right { position: absolute !important; bottom: 0; right: 0; }
 .top-left { position: absolute !important; top: 0; left: 0; }
 .bottom-left { position: absolute !important; bottom: 0; left: 0; }
+
+
+@media (max-width: 767px) {
+    .form-instructions {
+        text-align: left;
+        margin-left: 15px;
+    }
+
+    .team-icons-container { width: 90%; }
+
+    .at {
+        display: block;
+        margin-left: 25%;
+        margin-bottom: 20px;
+    }
+}
