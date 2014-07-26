@@ -4,6 +4,7 @@
     $view_picks_active = true;
     $rules_active = false;
     $help_active = false;
+    $now = strtotime('now');
     require '_includes/header.php';
 ?>
     <div class="container-fluid">
@@ -26,7 +27,7 @@
                                 </h4>
                             </div>
 
-                            <div id="view-picks-wk1-panel" class="panel-collapse collapse in">
+                            <div id="view-picks-wk1-panel" class="panel-collapse collapse<?php echo(($now < strtotime("9 September 2014")) ? ' in' : ''); ?>">
                                 <div class="panel-body">
                                     <div class="table-responsive">
                                         <table id="wk1-picks" class="table table-condensed table-bordered table-striped">
@@ -186,7 +187,7 @@
                                 </h4>
                             </div>
 
-                            <div id="view-picks-wk2-panel" class="panel-collapse collapse">
+                            <div id="view-picks-wk2-panel" class="panel-collapse collapse<?php echo(($now > strtotime("8 September 2014") && $now < strtotime("16 September 2014")) ? ' in' : ''); ?>">
                                 <div class="panel-body">
                                     <div class="table-responsive">
                                         <table id="wk2-picks" class="table table-condensed table-bordered table-striped">
@@ -346,7 +347,7 @@
                                 </h4>
                             </div>
 
-                            <div id="view-picks-wk3-panel" class="panel-collapse collapse">
+                            <div id="view-picks-wk3-panel" class="panel-collapse collapse<?php echo(($now > strtotime("15 September 2014") && $now < strtotime("23 September 2014")) ? ' in' : ''); ?>">
                                 <div class="panel-body">
                                     <div class="table-responsive">
                                         <table id="wk3-picks" class="table table-condensed table-bordered table-striped">
@@ -506,7 +507,7 @@
                                 </h4>
                             </div>
 
-                            <div id="view-picks-wk4-panel" class="panel-collapse collapse">
+                            <div id="view-picks-wk4-panel" class="panel-collapse collapse<?php echo(($now > strtotime("22 September 2014") && $now < strtotime("30 September 2014")) ? ' in' : ''); ?>">
                                 <div class="panel-body">
                                     <div class="table-responsive">
                                         <table id="wk4-picks" class="table table-condensed table-bordered table-striped">
@@ -645,7 +646,7 @@
                                 </h4>
                             </div>
 
-                            <div id="view-picks-wk5-panel" class="panel-collapse collapse">
+                            <div id="view-picks-wk5-panel" class="panel-collapse collapse<?php echo(($now > strtotime("29 September 2014") && $now < strtotime("07 October 2014")) ? ' in' : ''); ?>">
                                 <div class="panel-body">
                                     <div class="table-responsive">
                                         <table id="wk5-picks" class="table table-condensed table-bordered table-striped">
@@ -798,7 +799,7 @@
                                 </h4>
                             </div>
 
-                            <div id="view-picks-wk6-panel" class="panel-collapse collapse">
+                            <div id="view-picks-wk6-panel" class="panel-collapse collapse<?php echo(($now > strtotime("06 October 2014") && $now < strtotime("14 October 2014")) ? ' in' : ''); ?>">
                                 <div class="panel-body">
                                     <div class="table-responsive">
                                         <table id="wk6-picks" class="table table-condensed table-bordered table-striped">
@@ -951,7 +952,7 @@
                                 </h4>
                             </div>
 
-                            <div id="view-picks-wk7-panel" class="panel-collapse collapse">
+                            <div id="view-picks-wk7-panel" class="panel-collapse collapse<?php echo(($now > strtotime("13 October 2014") && $now < strtotime("21 October 2014")) ? ' in' : ''); ?>">
                                 <div class="panel-body">
                                     <div class="table-responsive">
                                         <table id="wk7-picks" class="table table-condensed table-bordered table-striped">
@@ -1104,7 +1105,7 @@
                                 </h4>
                             </div>
 
-                            <div id="view-picks-wk8-panel" class="panel-collapse collapse">
+                            <div id="view-picks-wk8-panel" class="panel-collapse collapse<?php echo(($now > strtotime("20 October 2014") && $now < strtotime("28 October 2014")) ? ' in' : ''); ?>">
                                 <div class="panel-body">
                                     <div class="table-responsive">
                                         <table id="wk8-picks" class="table table-condensed table-bordered table-striped">
@@ -1257,7 +1258,7 @@
                                 </h4>
                             </div>
 
-                            <div id="view-picks-wk9-panel" class="panel-collapse collapse">
+                            <div id="view-picks-wk9-panel" class="panel-collapse collapse<?php echo(($now > strtotime("27 October 2014") && $now < strtotime("04 November 2014")) ? ' in' : ''); ?>">
                                 <div class="panel-body">
                                     <div class="table-responsive">
                                         <table id="wk9-picks" class="table table-condensed table-bordered table-striped">
@@ -1396,7 +1397,7 @@
                                 </h4>
                             </div>
 
-                            <div id="view-picks-wk10-panel" class="panel-collapse collapse">
+                            <div id="view-picks-wk10-panel" class="panel-collapse collapse<?php echo(($now > strtotime("03 November 2014") && $now < strtotime("11 November 2014")) ? ' in' : ''); ?>">
                                 <div class="panel-body">
                                     <div class="table-responsive">
                                         <table id="wk10-picks" class="table table-condensed table-bordered table-striped">
@@ -1535,7 +1536,7 @@
                                 </h4>
                             </div>
 
-                            <div id="view-picks-wk11-panel" class="panel-collapse collapse">
+                            <div id="view-picks-wk11-panel" class="panel-collapse collapse<?php echo(($now > strtotime("10 November 2014") && $now < strtotime("18 November 2014")) ? ' in' : ''); ?>">
                                 <div class="panel-body">
                                     <div class="table-responsive">
                                         <table id="wk11-picks" class="table table-condensed table-bordered table-striped">
@@ -1681,7 +1682,7 @@
                                 </h4>
                             </div>
 
-                            <div id="view-picks-wk12-panel" class="panel-collapse collapse">
+                            <div id="view-picks-wk12-panel" class="panel-collapse collapse<?php echo(($now > strtotime("17 November 2014") && $now < strtotime("25 November 2014")) ? ' in' : ''); ?>">
                                 <div class="panel-body">
                                     <div class="table-responsive">
                                         <table id="wk12-picks" class="table table-condensed table-bordered table-striped">
@@ -1834,7 +1835,7 @@
                                 </h4>
                             </div>
 
-                            <div id="view-picks-wk13-panel" class="panel-collapse collapse">
+                            <div id="view-picks-wk13-panel" class="panel-collapse collapse<?php echo(($now > strtotime("24 November 2014") && $now < strtotime("02 December 2014")) ? ' in' : ''); ?>">
                                 <div class="panel-body">
                                     <div class="table-responsive">
                                         <table id="wk13-picks" class="table table-condensed table-bordered table-striped">
@@ -1994,7 +1995,7 @@
                                 </h4>
                             </div>
 
-                            <div id="view-picks-wk14-panel" class="panel-collapse collapse">
+                            <div id="view-picks-wk14-panel" class="panel-collapse collapse<?php echo(($now > strtotime("01 December 2014") && $now < strtotime("09 December 2014")) ? ' in' : ''); ?>">
                                 <div class="panel-body">
                                     <div class="table-responsive">
                                         <table id="wk14-picks" class="table table-condensed table-bordered table-striped">
@@ -2154,7 +2155,7 @@
                                 </h4>
                             </div>
 
-                            <div id="view-picks-wk15-panel" class="panel-collapse collapse">
+                            <div id="view-picks-wk15-panel" class="panel-collapse collapse<?php echo(($now > strtotime("08 December 2014") && $now < strtotime("16 December 2014")) ? ' in' : ''); ?>">
                                 <div class="panel-body">
                                     <div class="table-responsive">
                                         <table id="wk15-picks" class="table table-condensed table-bordered table-striped">
@@ -2314,7 +2315,7 @@
                                 </h4>
                             </div>
 
-                            <div id="view-picks-wk16-panel" class="panel-collapse collapse">
+                            <div id="view-picks-wk16-panel" class="panel-collapse collapse<?php echo(($now > strtotime("15 December 2014") && $now < strtotime("22 December 2014")) ? ' in' : ''); ?>">
                                 <div class="panel-body">
                                     <div class="table-responsive">
                                         <table id="wk16-picks" class="table table-condensed table-bordered table-striped">
@@ -2474,7 +2475,7 @@
                                 </h4>
                             </div>
 
-                            <div id="view-picks-wk17-panel" class="panel-collapse collapse">
+                            <div id="view-picks-wk17-panel" class="panel-collapse collapse<?php echo(($now > strtotime("21 December 2014") && $now < strtotime("01 January 2015")) ? ' in' : ''); ?>">
                                 <div class="panel-body">
                                     <div class="table-responsive">
                                         <table id="wk17-picks" class="table table-condensed table-bordered table-striped">
