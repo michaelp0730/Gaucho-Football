@@ -20,6 +20,10 @@
                             $email = mysql_real_escape_string($_POST['email']);
                             $checkusername = mysql_query("SELECT * FROM users WHERE Username = '".$username."'");
                             $checkemail = mysql_query("SELECT * FROM users WHERE EmailAddress = '".$email."'");
+                            $recipient = "pellegrinimichael@gmail.com";
+                            $subject = "User " . $username . " registered at Gaucho Football";
+                            $header = "From: ". $username . " <" . $email . ">\r\n";
+                            $mail_body = "Username: " . $username . "\r\nEmail: " . $email;
 
                             if ($password !== $confirm_password) {
                                 echo '<div class="alert alert-danger" role="alert"><strong>Error:</strong> The passwords you entered did not match. <a href="register.php">Please go back and try again.</a></div>';
@@ -30,7 +34,9 @@
                             } else {
                                 $registerquery = mysql_query("INSERT INTO users (Username, Password, EmailAddress) VALUES('".$username."', '".$password."', '".$email."')");
                                 if ($registerquery) {
+                                    mail($recipient, $subject, $mail_body, $header);
                                     echo '<div class="alert alert-success"><strong>Success!</strong> Your account was successfully created. Please <a href="index.php">click here to login.</a></div>';
+
                                 } else {
                                     echo '<div class="alert alert-danger" role="alert"><strong>Error:</strong> Your registration failed. <a href="register.php">Please go back and try again.</a></div>';
                                 }
