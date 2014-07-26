@@ -62,6 +62,8 @@ textarea { width: 100%; min-height: 100px; }
 
 .submit-picks-btn { margin-top: 15px; }
 
+.table-responsive { overflow: scroll; }
+
 .rules-list { margin: 30px 0 20px; }
 
 .rules-list li {
