@@ -26,9 +26,12 @@ if (!empty($_POST['wk16gm1']) && !empty($_POST['wk16gm2']) && !empty($_POST['wk1
     $tiebreaker = mysql_real_escape_string($_POST['wk16-tiebreaker']);
     $due_date = strtotime('2014-12-18T20:25:00-04:00');
     $submission_time = strtotime('now');
-    $check_user_submission = mysql_query("SELECT * FROM wk16 WHERE Username = '".$username."'");
+    $check_user_submission = mysql_query("SELECT wk16Complete FROM wk16 WHERE Username = '".$username."'");
+    $submission_response_array = mysql_fetch_array($check_user_submission);
 
-    if ($submission_time > $due_date) {
+    if ($submission_response_array[0] == 1) {
+        echo '<div class="alert alert-danger" role="alert"><strong>Error:</strong> You have already submitted your Week 16 picks. All submissions are final.</div>';
+    } else if ($submission_time > $due_date) {
         echo '<div class="alert alert-danger" role="alert"><strong>Error:</strong> Your submission is too late. The first game of Week 16 has already started. Please try again next week.</div>';
     } else {
         $submit_wk16 = mysql_query("INSERT INTO wk16 (Username, wk16gm1, wk16gm2, wk16gm3, wk16gm4, wk16gm5, wk16gm6, wk16gm7, wk16gm8,

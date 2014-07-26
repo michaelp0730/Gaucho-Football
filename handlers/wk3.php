@@ -26,9 +26,12 @@ if (!empty($_POST['wk3gm1']) && !empty($_POST['wk3gm2']) && !empty($_POST['wk3gm
     $tiebreaker = mysql_real_escape_string($_POST['wk3-tiebreaker']);
     $due_date = strtotime('2014-09-18T20:25:00-04:00');
     $submission_time = strtotime('now');
-    $check_user_submission = mysql_query("SELECT * FROM wk3 WHERE Username = '".$username."'");
+    $check_user_submission = mysql_query("SELECT wk3Complete FROM wk3 WHERE Username = '".$username."'");
+    $submission_response_array = mysql_fetch_array($check_user_submission);
 
-    if ($submission_time > $due_date) {
+    if ($submission_response_array[0] == 1) {
+        echo '<div class="alert alert-danger" role="alert"><strong>Error:</strong> You have already submitted your Week 3 picks. All submissions are final.</div>';
+    } else if ($submission_time > $due_date) {
         echo '<div class="alert alert-danger" role="alert"><strong>Error:</strong> Your submission is too late. The first game of Week 3 has already started. Please try again next week.</div>';
     } else {
         $submit_wk3 = mysql_query("INSERT INTO wk3 (Username, wk3gm1, wk3gm2, wk3gm3, wk3gm4, wk3gm5, wk3gm6, wk3gm7, wk3gm8,

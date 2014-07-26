@@ -26,9 +26,12 @@ if (!empty($_POST['wk13gm1']) && !empty($_POST['wk13gm2']) && !empty($_POST['wk1
     $tiebreaker = mysql_real_escape_string($_POST['wk13-tiebreaker']);
     $due_date = strtotime('2014-11-27T12:30:00-04:00');
     $submission_time = strtotime('now');
-    $check_user_submission = mysql_query("SELECT * FROM wk13 WHERE Username = '".$username."'");
+    $check_user_submission = mysql_query("SELECT wk13Complete FROM wk13 WHERE Username = '".$username."'");
+    $submission_response_array = mysql_fetch_array($check_user_submission);
 
-    if ($submission_time > $due_date) {
+    if ($submission_response_array[0] == 1) {
+        echo '<div class="alert alert-danger" role="alert"><strong>Error:</strong> You have already submitted your Week 13 picks. All submissions are final.</div>';
+    } else if ($submission_time > $due_date) {
         echo '<div class="alert alert-danger" role="alert"><strong>Error:</strong> Your submission is too late. The first game of Week 13 has already started. Please try again next week.</div>';
     } else {
         $submit_wk13 = mysql_query("INSERT INTO wk13 (Username, wk13gm1, wk13gm2, wk13gm3, wk13gm4, wk13gm5, wk13gm6, wk13gm7, wk13gm8,

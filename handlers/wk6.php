@@ -25,9 +25,12 @@ if (!empty($_POST['wk6gm1']) && !empty($_POST['wk6gm2']) && !empty($_POST['wk6gm
     $tiebreaker = mysql_real_escape_string($_POST['wk6-tiebreaker']);
     $due_date = strtotime('2014-10-09T20:25:00-04:00');
     $submission_time = strtotime('now');
-    $check_user_submission = mysql_query("SELECT * FROM wk6 WHERE Username = '".$username."'");
+    $check_user_submission = mysql_query("SELECT wk6Complete FROM wk6 WHERE Username = '".$username."'");
+    $submission_response_array = mysql_fetch_array($check_user_submission);
 
-    if ($submission_time > $due_date) {
+    if ($submission_response_array[0] == 1) {
+        echo '<div class="alert alert-danger" role="alert"><strong>Error:</strong> You have already submitted your Week 6 picks. All submissions are final.</div>';
+    } else if ($submission_time > $due_date) {
         echo '<div class="alert alert-danger" role="alert"><strong>Error:</strong> Your submission is too late. The first game of Week 6 has already started. Please try again next week.</div>';
     } else {
         $submit_wk6 = mysql_query("INSERT INTO wk6 (Username, wk6gm1, wk6gm2, wk6gm3, wk6gm4, wk6gm5, wk6gm6, wk6gm7, wk6gm8,

@@ -26,9 +26,12 @@ if (!empty($_POST['wk17gm1']) && !empty($_POST['wk17gm2']) && !empty($_POST['wk1
     $tiebreaker = mysql_real_escape_string($_POST['wk17-tiebreaker']);
     $due_date = strtotime('2014-12-28T13:00:00-04:00');
     $submission_time = strtotime('now');
-    $check_user_submission = mysql_query("SELECT * FROM wk17 WHERE Username = '".$username."'");
+    $check_user_submission = mysql_query("SELECT wk17Complete FROM wk17 WHERE Username = '".$username."'");
+    $submission_response_array = mysql_fetch_array($check_user_submission);
 
-    if ($submission_time > $due_date) {
+    if ($submission_response_array[0] == 1) {
+        echo '<div class="alert alert-danger" role="alert"><strong>Error:</strong> You have already submitted your Week 17 picks. All submissions are final.</div>';
+    } else if ($submission_time > $due_date) {
         echo '<div class="alert alert-danger" role="alert"><strong>Error:</strong> Your submission is too late. The first game of Week 17 has already started. Please try again next week.</div>';
     } else {
         $submit_wk17 = mysql_query("INSERT INTO wk17 (Username, wk17gm1, wk17gm2, wk17gm3, wk17gm4, wk17gm5, wk17gm6, wk17gm7, wk17gm8,
