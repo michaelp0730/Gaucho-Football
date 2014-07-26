@@ -139,7 +139,7 @@
                                             $username = $_SESSION['Username'];
                                             $show_wk1_query = mysql_query("SELECT wk1Complete FROM wk1 WHERE Username = '".$username."'");
                                             $wk1_query = mysql_query("SELECT * FROM wk1 GROUP BY Username");
-                                            if (mysql_result($show_wk1_query, 0) == 1) {
+                                            if (mysql_num_rows($show_wk1_query) > 0 && mysql_result($show_wk1_query, 0) == 1) {
                                             ?>
                                             <tbody>
                                             <?php while ($wk1row = mysql_fetch_array($wk1_query, MYSQL_NUM)) {
@@ -299,7 +299,7 @@
                                             $username = $_SESSION['Username'];
                                             $show_wk2_query = mysql_query("SELECT wk2Complete FROM wk2 WHERE Username = '".$username."'");
                                             $wk2_query = mysql_query("SELECT * FROM wk2 GROUP BY Username");
-                                            if (mysql_result($show_wk2_query, 0) == 1) {
+                                            if (mysql_num_rows($show_wk2_query) > 0 && mysql_result($show_wk2_query, 0) == 1) {
                                             ?>
                                             <tbody>
                                             <?php while ($wk2row = mysql_fetch_array($wk2_query, MYSQL_NUM)) {
@@ -459,7 +459,7 @@
                                             $username = $_SESSION['Username'];
                                             $show_wk3_query = mysql_query("SELECT wk3Complete FROM wk3 WHERE Username = '".$username."'");
                                             $wk3_query = mysql_query("SELECT * FROM wk3 GROUP BY Username");
-                                            if (mysql_result($show_wk3_query, 0) == 1) {
+                                            if (mysql_num_rows($show_wk3_query) > 0 && mysql_result($show_wk3_query, 0) == 1) {
                                             ?>
                                             <tbody>
                                             <?php while ($wk3row = mysql_fetch_array($wk3_query, MYSQL_NUM)) {
@@ -601,7 +601,7 @@
                                             $username = $_SESSION['Username'];
                                             $show_wk4_query = mysql_query("SELECT wk4Complete FROM wk4 WHERE Username = '".$username."'");
                                             $wk4_query = mysql_query("SELECT * FROM wk4 GROUP BY Username");
-                                            if (mysql_result($show_wk4_query, 0) == 1) {
+                                            if (mysql_num_rows($show_wk4_query) > 0 && mysql_result($show_wk4_query, 0) == 1) {
                                             ?>
                                             <tbody>
                                             <?php while ($wk4row = mysql_fetch_array($wk4_query, MYSQL_NUM)) {
@@ -752,7 +752,7 @@
                                             $username = $_SESSION['Username'];
                                             $show_wk5_query = mysql_query("SELECT wk5Complete FROM wk5 WHERE Username = '".$username."'");
                                             $wk5_query = mysql_query("SELECT * FROM wk5 GROUP BY Username");
-                                            if (mysql_result($show_wk5_query, 0) == 1) {
+                                            if (mysql_num_rows($show_wk5_query) > 0 && mysql_result($show_wk5_query, 0) == 1) {
                                             ?>
                                             <tbody>
                                             <?php while ($wk5row = mysql_fetch_array($wk5_query, MYSQL_NUM)) {
@@ -905,7 +905,7 @@
                                             $username = $_SESSION['Username'];
                                             $show_wk6_query = mysql_query("SELECT wk6Complete FROM wk6 WHERE Username = '".$username."'");
                                             $wk6_query = mysql_query("SELECT * FROM wk6 GROUP BY Username");
-                                            if (mysql_result($show_wk6_query, 0) == 1) {
+                                            if (mysql_num_rows($show_wk6_query) > 0 && mysql_result($show_wk6_query, 0) == 1) {
                                             ?>
                                             <tbody>
                                             <?php while ($wk6row = mysql_fetch_array($wk6_query, MYSQL_NUM)) {
@@ -1058,7 +1058,7 @@
                                             $username = $_SESSION['Username'];
                                             $show_wk7_query = mysql_query("SELECT wk7Complete FROM wk7 WHERE Username = '".$username."'");
                                             $wk7_query = mysql_query("SELECT * FROM wk7 GROUP BY Username");
-                                            if (mysql_result($show_wk7_query, 0) == 1) {
+                                            if (mysql_num_rows($show_wk7_query) > 0 && mysql_result($show_wk7_query, 0) == 1) {
                                             ?>
                                             <tbody>
                                             <?php while ($wk7row = mysql_fetch_array($wk7_query, MYSQL_NUM)) {
@@ -1211,7 +1211,7 @@
                                             $username = $_SESSION['Username'];
                                             $show_wk8_query = mysql_query("SELECT wk8Complete FROM wk8 WHERE Username = '".$username."'");
                                             $wk8_query = mysql_query("SELECT * FROM wk8 GROUP BY Username");
-                                            if (mysql_result($show_wk8_query, 0) == 1) {
+                                            if (mysql_num_rows($show_wk8_query) > 0 && mysql_result($show_wk8_query, 0) == 1) {
                                             ?>
                                             <tbody>
                                             <?php while ($wk8row = mysql_fetch_array($wk8_query, MYSQL_NUM)) {
@@ -1352,7 +1352,7 @@
                                             $username = $_SESSION['Username'];
                                             $show_wk9_query = mysql_query("SELECT wk9Complete FROM wk9 WHERE Username = '".$username."'");
                                             $wk9_query = mysql_query("SELECT * FROM wk9 GROUP BY Username");
-                                            if (mysql_result($show_wk9_query, 0) == 1) {
+                                            if (mysql_num_rows($show_wk9_query) > 0 && mysql_result($show_wk9_query, 0) == 1) {
                                             ?>
                                             <tbody>
                                             <?php while ($wk9row = mysql_fetch_array($wk9_query, MYSQL_NUM)) {
@@ -1491,7 +1491,7 @@
                                             $username = $_SESSION['Username'];
                                             $show_wk10_query = mysql_query("SELECT wk10Complete FROM wk10 WHERE Username = '".$username."'");
                                             $wk10_query = mysql_query("SELECT * FROM wk10 GROUP BY Username");
-                                            if (mysql_result($show_wk10_query, 0) == 1) {
+                                            if (mysql_num_rows($show_wk10_query) > 0 && mysql_result($show_wk10_query, 0) == 1) {
                                             ?>
                                             <tbody>
                                             <?php while ($wk10row = mysql_fetch_array($wk10_query, MYSQL_NUM)) {
@@ -1636,7 +1636,7 @@
                                             $username = $_SESSION['Username'];
                                             $show_wk11_query = mysql_query("SELECT wk11Complete FROM wk11 WHERE Username = '".$username."'");
                                             $wk11_query = mysql_query("SELECT * FROM wk11 GROUP BY Username");
-                                            if (mysql_result($show_wk11_query, 0) == 1) {
+                                            if (mysql_num_rows($show_wk11_query) > 0 && mysql_result($show_wk11_query, 0) == 1) {
                                             ?>
                                             <tbody>
                                             <?php while ($wk11row = mysql_fetch_array($wk11_query, MYSQL_NUM)) {
@@ -1788,7 +1788,7 @@
                                             $username = $_SESSION['Username'];
                                             $show_wk12_query = mysql_query("SELECT wk12Complete FROM wk12 WHERE Username = '".$username."'");
                                             $wk12_query = mysql_query("SELECT * FROM wk12 GROUP BY Username");
-                                            if (mysql_result($show_wk12_query, 0) == 1) {
+                                            if (mysql_num_rows($show_wk12_query) > 0 && mysql_result($show_wk12_query, 0) == 1) {
                                             ?>
                                             <tbody>
                                             <?php while ($wk12row = mysql_fetch_array($wk12_query, MYSQL_NUM)) {
@@ -1947,7 +1947,7 @@
                                             $username = $_SESSION['Username'];
                                             $show_wk13_query = mysql_query("SELECT wk13Complete FROM wk13 WHERE Username = '".$username."'");
                                             $wk13_query = mysql_query("SELECT * FROM wk13 GROUP BY Username");
-                                            if (mysql_result($show_wk13_query, 0) == 1) {
+                                            if (mysql_num_rows($show_wk13_query) > 0 && mysql_result($show_wk13_query, 0) == 1) {
                                             ?>
                                             <tbody>
                                             <?php while ($wk13row = mysql_fetch_array($wk13_query, MYSQL_NUM)) {
@@ -2107,7 +2107,7 @@
                                             $username = $_SESSION['Username'];
                                             $show_wk14_query = mysql_query("SELECT wk14Complete FROM wk14 WHERE Username = '".$username."'");
                                             $wk14_query = mysql_query("SELECT * FROM wk14 GROUP BY Username");
-                                            if (mysql_result($show_wk14_query, 0) == 1) {
+                                            if (mysql_num_rows($show_wk14_query) > 0 && mysql_result($show_wk14_query, 0) == 1) {
                                             ?>
                                             <tbody>
                                             <?php while ($wk14row = mysql_fetch_array($wk14_query, MYSQL_NUM)) {
@@ -2267,7 +2267,7 @@
                                             $username = $_SESSION['Username'];
                                             $show_wk15_query = mysql_query("SELECT wk15Complete FROM wk15 WHERE Username = '".$username."'");
                                             $wk15_query = mysql_query("SELECT * FROM wk15 GROUP BY Username");
-                                            if (mysql_result($show_wk15_query, 0) == 1) {
+                                            if (mysql_num_rows($show_wk15_query) > 0 && mysql_result($show_wk15_query, 0) == 1) {
                                             ?>
                                             <tbody>
                                             <?php while ($wk15row = mysql_fetch_array($wk15_query, MYSQL_NUM)) {
@@ -2427,7 +2427,7 @@
                                             $username = $_SESSION['Username'];
                                             $show_wk16_query = mysql_query("SELECT wk16Complete FROM wk16 WHERE Username = '".$username."'");
                                             $wk16_query = mysql_query("SELECT * FROM wk16 GROUP BY Username");
-                                            if (mysql_result($show_wk16_query, 0) == 1) {
+                                            if (mysql_num_rows($show_wk16_query) > 0 && mysql_result($show_wk16_query, 0) == 1) {
                                             ?>
                                             <tbody>
                                             <?php while ($wk16row = mysql_fetch_array($wk16_query, MYSQL_NUM)) {
@@ -2587,7 +2587,7 @@
                                             $username = $_SESSION['Username'];
                                             $show_wk17_query = mysql_query("SELECT wk17Complete FROM wk17 WHERE Username = '".$username."'");
                                             $wk17_query = mysql_query("SELECT * FROM wk17 GROUP BY Username");
-                                            if (mysql_result($show_wk17_query, 0) == 1) {
+                                            if (mysql_num_rows($show_wk17_query) > 0 && mysql_result($show_wk17_query, 0) == 1) {
                                             ?>
                                             <tbody>
                                             <?php while ($wk17row = mysql_fetch_array($wk17_query, MYSQL_NUM)) {
