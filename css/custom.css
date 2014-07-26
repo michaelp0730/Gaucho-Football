@@ -85,10 +85,16 @@ textarea { width: 100%; min-height: 100px; }
 
 
 @media (max-width: 767px) {
+    .navbar-default { margin-bottom: 50px; }
+
+    .alert { margin-top: 20px; }
+
     .form-instructions {
         text-align: left;
         margin-left: 15px;
     }
+
+    .home-team-container { margin-bottom: 20px; }
 
     .team-icons-container { width: 90%; }
 

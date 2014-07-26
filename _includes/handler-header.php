@@ -22,9 +22,9 @@
             <div class="navbar-header">
                 <a class="navbar-brand" href="../index.php">Gaucho Football</a>
             </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a href="../index.php">Pick Games</a></li>
+                    <li class="active"><a href="../index.php">Pick Games</a></li>
                     <li><a href="../view-picks.php">View Picks</a></li>
                     <li><a href="../rules.php">Rules</a></li>
                     <li><a href="../help.php">Help</a></li>
