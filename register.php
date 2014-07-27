@@ -6,40 +6,18 @@
     $help_active = false;
     require './_includes/header.php';
 ?>
+<script>
+var RecaptchaOptions = {
+    theme : 'clean'
+};
+</script>
     <div class="container-fluid">
         <div class="row">
             <div class="col-xs-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
                 <h1>Register</h1>
                 <div class="panel panel-default login-container-outer clearfix">
                     <div class="panel panel-default login-container-inner">
-                    <?php
-                        if(!empty($_POST['username']) && !empty($_POST['email']) && !empty($_POST['password']) && !empty($_POST['confirm-password'])) {
-                            $username = mysql_real_escape_string($_POST['username']);
-                            $password = md5(mysql_real_escape_string($_POST['password']));
-                            $confirm_password = md5(mysql_real_escape_string($_POST['confirm-password']));
-                            $email = mysql_real_escape_string($_POST['email']);
-                            $checkusername = mysql_query("SELECT * FROM users WHERE Username = '".$username."'");
-                            $checkemail = mysql_query("SELECT * FROM users WHERE EmailAddress = '".$email."'");
-
-                            if ($password !== $confirm_password) {
-                                echo '<div class="alert alert-danger" role="alert"><strong>Error:</strong> The passwords you entered did not match. <a href="register.php">Please go back and try again.</a></div>';
-                            } elseif (mysql_num_rows($checkusername) == 1) {
-                                echo '<div class="alert alert-danger" role="alert"><strong>Error:</strong> That username is taken. <a href="register.php">Please go back and try again.</a></div>';
-                            } elseif (mysql_num_rows($checkemail) == 1) {
-                                echo '<div class="alert alert-danger" role="alert"><strong>Error:</strong> That email address has already been registered. <a href="register.php">Please go back and try again.</a></div>';
-                            } else {
-                                $registerquery = mysql_query("INSERT INTO users (Username, Password, EmailAddress) VALUES('".$username."', '".$password."', '".$email."')");
-                                if ($registerquery) {
-                                    mail("pellegrinimichael@gmail.com", "User " . $username . " registered on Gaucho Football", "Username: " . $username . "\nEmail: " . $email);
-                                    echo '<div class="alert alert-success"><strong>Success!</strong> Your account was successfully created. Please <a href="index.php">click here to login.</a></div>';
-
-                                } else {
-                                    echo '<div class="alert alert-danger" role="alert"><strong>Error:</strong> Your registration failed. <a href="register.php">Please go back and try again.</a></div>';
-                                }
-                            }
-                        } else {
-                    ?>
-                        <form method="POST" action="register.php" name="registerForm" id="registerForm">
+                        <form method="POST" action="process-registration.php" name="registerForm" id="registerForm">
                             <div>
                                 <label for="username">Username:</label><br />
                                 <input type="text" name="username" id="username" />
@@ -57,10 +35,15 @@
                                 <input type="password" name="confirm-password" id="confirm-password" />
                             </div>
                             <div>
+                                <script src="https://www.google.com/recaptcha/api/challenge?k=6LfNi_cSAAAAAO5ouiluk2KU-0n5gTnBmRIdlpEH"></script>
+                                <noscript>
+                                    <iframe src="https://www.google.com/recaptcha/api/noscript?k=6LfNi_cSAAAAAO5ouiluk2KU-0n5gTnBmRIdlpEH" height="300" width="500" frameborder="0"></iframe><br />
+                                </noscript>
+                            </div>
+                            <div>
                                 <input type="submit" name="register" id="register" value="Register" class="btn btn-primary" />
                             </div>
                         </form>
-                    <?php } ?>
                     </div>
                 </div>
             </div>
