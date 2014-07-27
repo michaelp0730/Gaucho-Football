@@ -5,6 +5,8 @@
     $rules_active = false;
     $help_active = true;
     require './_includes/header.php';
+
+    $Name = $_SESSION['Username'];
 ?>
     <div class="container-fluid">
         <div class="row">
@@ -14,14 +16,7 @@
                     <div class="panel panel-default login-container-inner">
                     <?php
                         if(!empty($_POST['message'])) {
-                            $Name = $_SESSION['Username'];
-                            $email = mysql_query("SELECT EmailAddress FROM users WHERE Username = '".$Name."'");
-                            $recepient = "pellegrinimichael@gmail.com";
-                            $mail_body = $_POST['message'];
-                            $subject = "Message from " . $Name . " on Gaucho Football";
-                            $header = "From: ". $Name . " <" . $email . ">\r\n";
-
-                            mail($recipient, $subject, $mail_body, $header);
+                            mail("pellegrinimichael@gmail.com", "Message from " . $Name . " on Gaucho Football", $_POST['message']);
                             echo '<div class="alert alert-success"><strong>Success!</strong> Your message was sent.</div>';
                         } else {
                     ?>
