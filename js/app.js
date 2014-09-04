@@ -1,5 +1,14 @@
 (function () {
     'use strict';
+    function validateEmail(sEmail) {
+        var filter = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+        if (filter.test(sEmail)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
     $.getJSON('./json/schedule.json', function(data) {
         var scheduleTemplate = $('#schedule-template').html(),
             compiledSchedule = Handlebars.compile(scheduleTemplate),
@@ -22,7 +31,7 @@
             wk15StartDate = new XDate('2014-12-11T20:25:00-04:00'),
             wk16StartDate = new XDate('2014-12-18T20:25:00-04:00'),
             wk17StartDate = new XDate('2014-12-28T13:00:00-04:00'),
-            gametimes;
+            email, gametimes;
 
         $('#schedule-container').html(compiledSchedule(scheduleWrapper));
 
@@ -73,6 +82,17 @@
 
         $('.submit-picks-btn').on('click', function(e) {
             alert('Are you sure you want to submit these picks? Remember - all picks are final.');
+        });
+
+        $('#help-submit').on('click', function(e) {
+            email = $('#email').val();
+            if ($.trim(email).length === 0) {
+                alert('Please enter your email address');
+                e.preventDefault();
+            } else if (!validateEmail(email)) {
+                alert('Invalid Email Address');
+                e.preventDefault();
+            }
         });
     });
 }());

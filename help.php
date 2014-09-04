@@ -1,12 +1,15 @@
 <?php
-    $title = 'Help | Gaucho Football';
-    $pick_games_active = false;
-    $view_picks_active = false;
-    $rules_active = false;
-    $help_active = true;
-    require './_includes/header.php';
+$title = 'Help | Gaucho Football';
+$pick_games_active = false;
+$view_picks_active = false;
+$rules_active = false;
+$help_active = true;
+require './_includes/header.php';
 
-    $Name = $_SESSION['Username'];
+$Name = $_SESSION['Username'];
+$body = "Name: $Name
+Email: {$_POST['email']}
+Message: {$_POST['message']}";
 ?>
     <div class="container-fluid">
         <div class="row">
@@ -15,13 +18,17 @@
                 <div class="panel panel-default login-container-outer clearfix">
                     <div class="panel panel-default login-container-inner">
                     <?php
-                        if(!empty($_POST['message'])) {
-                            mail("pellegrinimichael@gmail.com", "Message from " . $Name . " on Gaucho Football", $_POST['message']);
+                        if(!empty($_POST['message']) && !empty($_POST['email'])) {
+                            mail("pellegrinimichael@gmail.com", "Message from " . $Name . " on Gaucho Football", "$body");
                             echo '<div class="alert alert-success"><strong>Success!</strong> Your message was sent.</div>';
                         } else {
                     ?>
                         <h3>Need help with something? Send us a message and we'll get back to you ASAP.</h3>
                         <form method="POST" action="help.php" name="help-form" id="help-form">
+                            <div>
+                                <label for="email">Your email address:</label><br />
+                                <input type="text" name="email" id="email" />
+                            </div>
                             <div>
                                 <label for="message">Message:</label>
                                 <textarea name="message"></textarea>
