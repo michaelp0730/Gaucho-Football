@@ -14,7 +14,7 @@
             ?>
                 <h1>Pick Games</h1>
                 <div class="alert alert-info" role="alert">
-                    Alert - When choosing the total points tiebreaker on Monday night for Week 1, go with the late game (SD @ ARI).
+                    Congrats to Coopadoop - our Week 4 winner!
                 </div>
                 <div id="schedule-container"></div>
             <?php
