@@ -24,7 +24,7 @@ if (!empty($_POST['wk15gm1']) && !empty($_POST['wk15gm2']) && !empty($_POST['wk1
     $wk15gm15 = mysql_real_escape_string($_POST['wk15gm15']);
     $wk15gm16 = mysql_real_escape_string($_POST['wk15gm16']);
     $tiebreaker = mysql_real_escape_string($_POST['wk15-tiebreaker']);
-    $due_date = strtotime('2014-12-11T20:25:00-04:00');
+    $due_date = strtotime('2014-12-11T20:25:00-05:00');
     $submission_time = strtotime('now');
     $check_user_submission = mysql_query("SELECT wk15Complete FROM wk15 WHERE Username = '".$username."'");
     $submission_response_array = mysql_fetch_array($check_user_submission);

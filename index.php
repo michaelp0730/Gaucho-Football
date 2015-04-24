@@ -14,7 +14,8 @@
             ?>
                 <h1>Pick Games</h1>
                 <div class="alert alert-info" role="alert">
-                    Congrats to Coopadoop - our Week 4 winner!
+                    Congrats to Chaz - our Week 17 winner!<br />
+                    Thanks for a great season; it's been a lot of fun!
                 </div>
                 <div id="schedule-container"></div>
             <?php
