@@ -9,7 +9,7 @@
         }
     }
 
-    $.getJSON('./json/schedule.json', function(data) {
+    $.getJSON('./json/2014-schedule.json', function(data) {
         var scheduleTemplate = $('#schedule-template').html(),
             compiledSchedule = Handlebars.compile(scheduleTemplate),
             scheduleWrapper = {weeks: data},
