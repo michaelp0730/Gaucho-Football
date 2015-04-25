@@ -192,5 +192,99 @@
                 "gametime": "2015-09-21T20:30:00-04:00"
             }
         ]
-    }
+    }{
+        "id": "wk3",
+        "week": "Week 3",
+        "dates": "September 27, 28 - 2015",
+        "games": [
+            {
+                "id": "wk3gm1",
+                "away": "ATL",
+                "home": "DAL",
+                "gametime": "2015-09-27T13:00:00-04:00"
+            },
+            {
+                "id": "wk3gm2",
+                "away": "IND",
+                "home": "TEN",
+                "gametime": "2015-09-27T13:00:00-04:00"
+            },
+            {
+                "id": "wk3gm3",
+                "away": "OAK",
+                "home": "CLE",
+                "gametime": "2015-09-27T13:00:00-04:00"
+            },
+            {
+                "id": "wk3gm4",
+                "away": "CIN",
+                "home": "BAL",
+                "gametime": "2015-09-27T13:00:00-04:00"
+            },
+            {
+                "id": "wk3gm5",
+                "away": "JAX",
+                "home": "NE",
+                "gametime": "2015-09-27T13:00:00-04:00"
+            },
+            {
+                "id": "wk3gm6",
+                "away": "NO",
+                "home": "CAR",
+                "gametime": "2015-09-27T13:00:00-04:00"
+            },
+            {
+                "id": "wk3gm7",
+                "away": "PHI",
+                "home": "NYJ",
+                "gametime": "2015-09-27T13:00:00-04:00"
+            },
+            {
+                "id": "wk3gm8",
+                "away": "TB",
+                "home": "HOU",
+                "gametime": "2015-09-27T13:00:00-04:00"
+            },
+            {
+                "id": "wk3gm9",
+                "away": "SD",
+                "home": "MIN",
+                "gametime": "2015-09-27T13:00:00-04:00"
+            },
+            {
+                "id": "wk3gm10",
+                "away": "PIT",
+                "home": "STL",
+                "gametime": "2015-09-27T13:00:00-04:00"
+            },
+            {
+                "id": "wk3gm11",
+                "away": "SF",
+                "home": "ARI",
+                "gametime": "2015-09-27T16:05:00-04:00"
+            },
+            {
+                "id": "wk3gm12",
+                "away": "BUF",
+                "home": "MIA",
+                "gametime": "2015-09-27T16:25:00-04:00"
+            },
+            {
+                "id": "wk3gm13",
+                "away": "CHI",
+                "home": "SEA",
+                "gametime": "2015-09-27T16:25:00-04:00"
+            },
+            {
+                "id": "wk3gm13",
+                "away": "DEN",
+                "home": "DET",
+                "gametime": "2015-09-27T20:30:00-04:00"
+            },
+            {
+                "id": "wk3gm14",
+                "away": "KC",
+                "home": "GB",
+                "gametime": "2015-09-28T20:30:00-04:00"
+            }
 ]
