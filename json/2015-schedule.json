@@ -459,5 +459,90 @@
                 "gametime": "2015-10-12T20:30:00-04:00"
             }
         ]
+    },
+    {
+        "id": "wk6",
+        "week": "Week 6",
+        "dates": "October 18, 19 - 2015",
+        "games": [
+            {
+                "id": "wk6gm1",
+                "away": "WSH",
+                "home": "NYJ",
+                "gametime": "2015-10-18T13:00:00-04:00"
+            },
+            {
+                "id": "wk6gm2",
+                "away": "ARI",
+                "home": "PIT",
+                "gametime": "2015-10-18T13:00:00-04:00"
+            },
+            {
+                "id": "wk6gm3",
+                "away": "KC",
+                "home": "MIN",
+                "gametime": "2015-10-18T13:00:00-04:00"
+            },
+            {
+                "id": "wk6gm4",
+                "away": "CIN",
+                "home": "BUF",
+                "gametime": "2015-10-18T13:00:00-04:00"
+            },
+            {
+                "id": "wk6gm5",
+                "away": "CHI",
+                "home": "DET",
+                "gametime": "2015-10-18T13:00:00-04:00"
+            },
+            {
+                "id": "wk6gm6",
+                "away": "DEN",
+                "home": "CLE",
+                "gametime": "2015-10-18T13:00:00-04:00"
+            },
+            {
+                "id": "wk6gm7",
+                "away": "HOU",
+                "home": "JAX",
+                "gametime": "2015-10-18T13:00:00-04:00"
+            },
+            {
+                "id": "wk6gm8",
+                "away": "MIA",
+                "home": "TEN",
+                "gametime": "2015-10-18T13:00:00-04:00"
+            },
+            {
+                "id": "wk6gm9",
+                "away": "CAR",
+                "home": "SEA",
+                "gametime": "2015-10-18T16:05:00-04:00"
+            },
+            {
+                "id": "wk6gm10",
+                "away": "SD",
+                "home": "GB",
+                "gametime": "2015-10-18T16:25:00-04:00"
+            },
+            {
+                "id": "wk6gm11",
+                "away": "BAL",
+                "home": "SF",
+                "gametime": "2015-10-18T16:25:00-04:00"
+            },
+            {
+                "id": "wk6gm12",
+                "away": "NE",
+                "home": "IND",
+                "gametime": "2015-10-18T20:30:00-04:00"
+            },
+            {
+                "id": "wk6gm13",
+                "away": "NYG",
+                "home": "PHI",
+                "gametime": "2015-10-19T20:30:00-04:00"
+            }
+        ]
     }
 ]
