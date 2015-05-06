@@ -1321,5 +1321,88 @@
                 "gametime": "2015-12-21T20:30:00-04:00"
             }
         ]
-    }
+    },
+    {
+        "id": "wk16",
+        "week": "Week 16",
+        "dates": "December 27, 28 - 2015",
+        "games": [
+            {
+                "id": "wk16gm1",
+                "away": "NE",
+                "home": "NYJ",
+                "gametime": "2015-12-27T13:00:00-04:00"
+            },
+            {
+                "id": "wk16gm2",
+                "away": "HOU",
+                "home": "TEN",
+                "gametime": "2015-12-27T13:00:00-04:00"
+            },
+            {
+                "id": "wk16gm3",
+                "away": "CLE",
+                "home": "KC",
+                "gametime": "2015-12-27T13:00:00-04:00"
+            },
+            {
+                "id": "wk16gm4",
+                "away": "IND",
+                "home": "MIA",
+                "gametime": "2015-12-27T13:00:00-04:00"
+            },
+            {
+                "id": "wk16gm5",
+                "away": "JAX",
+                "home": "NO",
+                "gametime": "2015-12-27T13:00:00-04:00"
+            },
+            {
+                "id": "wk16gm6",
+                "away": "SF",
+                "home": "DET",
+                "gametime": "2015-12-27T13:00:00-04:00"
+            },
+            {
+                "id": "wk16gm7",
+                "away": "DAL",
+                "home": "BUF",
+                "gametime": "2015-12-27T13:00:00-04:00"
+            },
+            {
+                "id": "wk16gm8",
+                "away": "CHI",
+                "home": "TB",
+                "gametime": "2015-12-27T13:00:00-04:00"
+            },
+            {
+                "id": "wk16gm9",
+                "away": "NYG",
+                "home": "MIN",
+                "gametime": "2015-12-27T13:00:00-04:00"
+            },
+            {
+                "id": "wk16gm10",
+                "away": "STL",
+                "home": "SEA",
+                "gametime": "2015-12-27T16:25:00-04:00"
+            },
+            {
+                "id": "wk16gm11",
+                "away": "GB",
+                "home": "ARI",
+                "gametime": "2015-12-27T16:25:00-04:00"
+            },
+            {
+                "id": "wk16gm12",
+                "away": "PIT",
+                "home": "BAL",
+                "gametime": "2015-12-27T20:30:00-04:00"
+            },
+            {
+                "id": "wk16gm13",
+                "away": "CIN",
+                "home": "DEN",
+                "gametime": "2015-12-28T20:30:00-04:00"
+            }
 ]
