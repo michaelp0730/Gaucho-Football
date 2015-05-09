@@ -24,7 +24,6 @@ CREATE TABLE `wk1` (
 `wk1gm13` VARCHAR(5) NOT NULL ,
 `wk1gm14` VARCHAR(5) NOT NULL ,
 `wk1gm15` VARCHAR(5) NOT NULL ,
-`wk1gm16` VARCHAR(5) NOT NULL ,
 `MondayTotalPoints` INT(5) NOT NULL ,
 `wk1Complete` BOOL NOT NULL
 );
@@ -46,7 +45,6 @@ CREATE TABLE `wk2` (
 `wk2gm13` VARCHAR(5) NOT NULL ,
 `wk2gm14` VARCHAR(5) NOT NULL ,
 `wk2gm15` VARCHAR(5) NOT NULL ,
-`wk2gm16` VARCHAR(5) NOT NULL ,
 `MondayTotalPoints` INT(5) NOT NULL ,
 `wk2Complete` BOOL NOT NULL
 );
@@ -67,8 +65,6 @@ CREATE TABLE `wk3` (
 `wk3gm12` VARCHAR(5) NOT NULL ,
 `wk3gm13` VARCHAR(5) NOT NULL ,
 `wk3gm14` VARCHAR(5) NOT NULL ,
-`wk3gm15` VARCHAR(5) NOT NULL ,
-`wk3gm16` VARCHAR(5) NOT NULL ,
 `MondayTotalPoints` INT(5) NOT NULL ,
 `wk3Complete` BOOL NOT NULL
 );
@@ -107,8 +103,6 @@ CREATE TABLE `wk5` (
 `wk5gm11` VARCHAR(5) NOT NULL ,
 `wk5gm12` VARCHAR(5) NOT NULL ,
 `wk5gm13` VARCHAR(5) NOT NULL ,
-`wk5gm14` VARCHAR(5) NOT NULL ,
-`wk5gm15` VARCHAR(5) NOT NULL ,
 `MondayTotalPoints` INT(5) NOT NULL ,
 `wk5Complete` BOOL NOT NULL
 );
@@ -128,8 +122,6 @@ CREATE TABLE `wk6` (
 `wk6gm11` VARCHAR(5) NOT NULL ,
 `wk6gm12` VARCHAR(5) NOT NULL ,
 `wk6gm13` VARCHAR(5) NOT NULL ,
-`wk6gm14` VARCHAR(5) NOT NULL ,
-`wk6gm15` VARCHAR(5) NOT NULL ,
 `MondayTotalPoints` INT(5) NOT NULL ,
 `wk6Complete` BOOL NOT NULL
 );
@@ -148,9 +140,6 @@ CREATE TABLE `wk7` (
 `wk7gm10` VARCHAR(5) NOT NULL ,
 `wk7gm11` VARCHAR(5) NOT NULL ,
 `wk7gm12` VARCHAR(5) NOT NULL ,
-`wk7gm13` VARCHAR(5) NOT NULL ,
-`wk7gm14` VARCHAR(5) NOT NULL ,
-`wk7gm15` VARCHAR(5) NOT NULL ,
 `MondayTotalPoints` INT(5) NOT NULL ,
 `wk7Complete` BOOL NOT NULL
 );
@@ -169,9 +158,6 @@ CREATE TABLE `wk8` (
 `wk8gm10` VARCHAR(5) NOT NULL ,
 `wk8gm11` VARCHAR(5) NOT NULL ,
 `wk8gm12` VARCHAR(5) NOT NULL ,
-`wk8gm13` VARCHAR(5) NOT NULL ,
-`wk8gm14` VARCHAR(5) NOT NULL ,
-`wk8gm15` VARCHAR(5) NOT NULL ,
 `MondayTotalPoints` INT(5) NOT NULL ,
 `wk8Complete` BOOL NOT NULL
 );
@@ -190,7 +176,6 @@ CREATE TABLE `wk9` (
 `wk9gm10` VARCHAR(5) NOT NULL ,
 `wk9gm11` VARCHAR(5) NOT NULL ,
 `wk9gm12` VARCHAR(5) NOT NULL ,
-`wk9gm13` VARCHAR(5) NOT NULL ,
 `MondayTotalPoints` INT(5) NOT NULL ,
 `wk9Complete` BOOL NOT NULL
 );
@@ -229,7 +214,6 @@ CREATE TABLE `wk11` (
 `wk11gm11` VARCHAR(5) NOT NULL ,
 `wk11gm12` VARCHAR(5) NOT NULL ,
 `wk11gm13` VARCHAR(5) NOT NULL ,
-`wk11gm14` VARCHAR(5) NOT NULL ,
 `MondayTotalPoints` INT(5) NOT NULL ,
 `wk11Complete` BOOL NOT NULL
 );
@@ -249,8 +233,6 @@ CREATE TABLE `wk12` (
 `wk12gm11` VARCHAR(5) NOT NULL ,
 `wk12gm12` VARCHAR(5) NOT NULL ,
 `wk12gm13` VARCHAR(5) NOT NULL ,
-`wk12gm14` VARCHAR(5) NOT NULL ,
-`wk12gm15` VARCHAR(5) NOT NULL ,
 `MondayTotalPoints` INT(5) NOT NULL ,
 `wk12Complete` BOOL NOT NULL
 );
@@ -272,7 +254,6 @@ CREATE TABLE `wk13` (
 `wk13gm13` VARCHAR(5) NOT NULL ,
 `wk13gm14` VARCHAR(5) NOT NULL ,
 `wk13gm15` VARCHAR(5) NOT NULL ,
-`wk13gm16` VARCHAR(5) NOT NULL ,
 `MondayTotalPoints` INT(5) NOT NULL ,
 `wk13Complete` BOOL NOT NULL
 );
@@ -294,7 +275,6 @@ CREATE TABLE `wk14` (
 `wk14gm13` VARCHAR(5) NOT NULL ,
 `wk14gm14` VARCHAR(5) NOT NULL ,
 `wk14gm15` VARCHAR(5) NOT NULL ,
-`wk14gm16` VARCHAR(5) NOT NULL ,
 `MondayTotalPoints` INT(5) NOT NULL ,
 `wk14Complete` BOOL NOT NULL
 );
@@ -315,8 +295,6 @@ CREATE TABLE `wk15` (
 `wk15gm12` VARCHAR(5) NOT NULL ,
 `wk15gm13` VARCHAR(5) NOT NULL ,
 `wk15gm14` VARCHAR(5) NOT NULL ,
-`wk15gm15` VARCHAR(5) NOT NULL ,
-`wk15gm16` VARCHAR(5) NOT NULL ,
 `MondayTotalPoints` INT(5) NOT NULL ,
 `wk15Complete` BOOL NOT NULL
 );
@@ -337,8 +315,6 @@ CREATE TABLE `wk16` (
 `wk16gm12` VARCHAR(5) NOT NULL ,
 `wk16gm13` VARCHAR(5) NOT NULL ,
 `wk16gm14` VARCHAR(5) NOT NULL ,
-`wk16gm15` VARCHAR(5) NOT NULL ,
-`wk16gm16` VARCHAR(5) NOT NULL ,
 `MondayTotalPoints` INT(5) NOT NULL ,
 `wk16Complete` BOOL NOT NULL
 );
