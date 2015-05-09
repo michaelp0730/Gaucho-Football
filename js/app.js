@@ -14,23 +14,23 @@
             compiledSchedule = Handlebars.compile(scheduleTemplate),
             scheduleWrapper = {weeks: data},
             currentDate = new XDate(),
-            wk1StartDate = new XDate('2014-09-04T20:30:00-04:00'),
-            wk2StartDate = new XDate('2014-09-11T20:25:00-04:00'),
-            wk3StartDate = new XDate('2014-09-18T20:25:00-04:00'),
-            wk4StartDate = new XDate('2014-09-25T20:25:00-04:00'),
-            wk5StartDate = new XDate('2014-10-02T20:25:00-04:00'),
-            wk6StartDate = new XDate('2014-10-09T20:25:00-04:00'),
-            wk7StartDate = new XDate('2014-10-16T20:25:00-04:00'),
-            wk8StartDate = new XDate('2014-10-23T20:25:00-04:00'),
-            wk9StartDate = new XDate('2014-10-30T20:25:00-04:00'),
-            wk10StartDate = new XDate('2014-11-06T20:25:00-04:00'),
-            wk11StartDate = new XDate('2014-11-13T20:25:00-04:00'),
-            wk12StartDate = new XDate('2014-11-20T20:25:00-04:00'),
-            wk13StartDate = new XDate('2014-11-27T12:30:00-04:00'),
-            wk14StartDate = new XDate('2014-12-04T20:25:00-04:00'),
-            wk15StartDate = new XDate('2014-12-11T20:25:00-04:00'),
-            wk16StartDate = new XDate('2014-12-18T20:25:00-04:00'),
-            wk17StartDate = new XDate('2014-12-28T13:00:00-04:00'),
+            wk1StartDate = new XDate('2015-09-13T13:00:00-04:00'),
+            wk2StartDate = new XDate('2015-09-20T13:00:00-04:00'),
+            wk3StartDate = new XDate('2015-09-27T13:00:00-04:00'),
+            wk4StartDate = new XDate('2015-10-04T13:00:00-04:00'),
+            wk5StartDate = new XDate('2015-10-11T13:00:00-04:00'),
+            wk6StartDate = new XDate('2015-10-18T13:00:00-04:00'),
+            wk7StartDate = new XDate('2015-10-25T13:00:00-04:00'),
+            wk8StartDate = new XDate('2015-11-01T13:00:00-04:00'),
+            wk9StartDate = new XDate('2015-11-08T13:00:00-04:00'),
+            wk10StartDate = new XDate('2015-11-15T13:00:00-04:00'),
+            wk11StartDate = new XDate('2015-11-22T13:00:00-04:00'),
+            wk12StartDate = new XDate('2015-11-29T13:00:00-04:00'),
+            wk13StartDate = new XDate('2015-12-06T13:00:00-04:00'),
+            wk14StartDate = new XDate('2015-12-13T13:00:00-04:00'),
+            wk15StartDate = new XDate('2015-12-20T13:00:00-04:00'),
+            wk16StartDate = new XDate('2015-12-27T13:00:00-04:00'),
+            wk17StartDate = new XDate('2016-01-03T13:00:00-04:00'),
             email, gametimes;
 
         $('#schedule-container').html(compiledSchedule(scheduleWrapper));
@@ -85,13 +85,12 @@
         });
 
         $('#help-submit').on('click', function(e) {
+            e.preventDefault();
             email = $('#email').val();
             if ($.trim(email).length === 0) {
                 alert('Please enter your email address');
-                e.preventDefault();
             } else if (!validateEmail(email)) {
                 alert('Invalid Email Address');
-                e.preventDefault();
             }
         });
     });

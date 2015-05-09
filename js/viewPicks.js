@@ -1,6 +1,6 @@
 (function () {
     'use strict';
-    $.getJSON('./json/2014-schedule.json', function(data) {
+    $.getJSON('./json/2015-schedule.json', function(data) {
         var viewPicksTemplate = $('#view-picks-template').html(),
             compiledPicks = Handlebars.compile(viewPicksTemplate),
             picksWrapper = {weeks: data},
