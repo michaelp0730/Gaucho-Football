@@ -1,0 +1,85 @@
+{
+    "id": "wk10",
+    "week": "Week 10",
+    "dates": "November 15, 16 - 2015",
+    "games": [
+        {
+            "id": "wk10gm1",
+            "away": "DET",
+            "home": "GB",
+            "gametime": "2015-11-15T13:00:00-04:00"
+        },
+        {
+            "id": "wk10gm2",
+            "away": "DAL",
+            "home": "TB",
+            "gametime": "2015-11-15T13:00:00-04:00"
+        },
+        {
+            "id": "wk10gm3",
+            "away": "CAR",
+            "home": "TEN",
+            "gametime": "2015-11-15T13:00:00-04:00"
+        },
+        {
+            "id": "wk10gm4",
+            "away": "CHI",
+            "home": "STL",
+            "gametime": "2015-11-15T13:00:00-04:00"
+        },
+        {
+            "id": "wk10gm5",
+            "away": "NO",
+            "home": "WSH",
+            "gametime": "2015-11-15T13:00:00-04:00"
+        },
+        {
+            "id": "wk10gm6",
+            "away": "MIA",
+            "home": "PHI",
+            "gametime": "2015-11-15T13:00:00-04:00"
+        },
+        {
+            "id": "wk10gm7",
+            "away": "CLE",
+            "home": "PIT",
+            "gametime": "2015-11-15T13:00:00-04:00"
+        },
+        {
+            "id": "wk10gm8",
+            "away": "JAX",
+            "home": "BAL",
+            "gametime": "2015-11-15T13:00:00-04:00"
+        },
+        {
+            "id": "wk10gm9",
+            "away": "MIN",
+            "home": "OAK",
+            "gametime": "2015-11-15T16:05:00-04:00"
+        },
+        {
+            "id": "wk10gm10",
+            "away": "NE",
+            "home": "NYG",
+            "gametime": "2015-11-15T16:25:00-04:00"
+        },
+        {
+            "id": "wk10gm11",
+            "away": "KC",
+            "home": "DEN",
+            "gametime": "2015-11-15T16:25:00-04:00"
+        },
+        {
+            "id": "wk10gm12",
+            "away": "ARI",
+            "home": "SEA",
+            "gametime": "2015-11-15T20:30:00-04:00"
+        },
+        {
+            "id": "wk10gm13",
+            "away": "HOU",
+            "home": "CIN",
+            "gametime": "2015-11-16T20:30:00-04:00"
+        }
+    ]
+}

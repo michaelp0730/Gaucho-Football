@@ -1,0 +1,97 @@
+{
+    "id": "wk13",
+    "week": "Week 13",
+    "dates": "December 06, 07 - 2015",
+    "games": [
+        {
+            "id": "wk13gm1",
+            "away": "NYJ",
+            "home": "NYG",
+            "gametime": "2015-12-06T13:00:00-04:00"
+        },
+        {
+            "id": "wk13gm2",
+            "away": "ARI",
+            "home": "STL",
+            "gametime": "2015-12-06T13:00:00-04:00"
+        },
+        {
+            "id": "wk13gm3",
+            "away": "ATL",
+            "home": "TB",
+            "gametime": "2015-12-06T13:00:00-04:00"
+        },
+        {
+            "id": "wk13gm4",
+            "away": "CAR",
+            "home": "NO",
+            "gametime": "2015-12-06T13:00:00-04:00"
+        },
+        {
+            "id": "wk13gm5",
+            "away": "SEA",
+            "home": "MIN",
+            "gametime": "2015-12-06T13:00:00-04:00"
+        },
+        {
+            "id": "wk13gm6",
+            "away": "HOU",
+            "home": "BUF",
+            "gametime": "2015-12-06T13:00:00-04:00"
+        },
+        {
+            "id": "wk13gm7",
+            "away": "BAL",
+            "home": "MIA",
+            "gametime": "2015-12-06T13:00:00-04:00"
+        },
+        {
+            "id": "wk13gm8",
+            "away": "CIN",
+            "home": "CLE",
+            "gametime": "2015-12-06T13:00:00-04:00"
+        },
+        {
+            "id": "wk13gm9",
+            "away": "JAX",
+            "home": "TEN",
+            "gametime": "2015-12-06T13:00:00-04:00"
+        },
+        {
+            "id": "wk13gm10",
+            "away": "SF",
+            "home": "CHI",
+            "gametime": "2015-12-06T13:00:00-04:00"
+        },
+        {
+            "id": "wk13gm11",
+            "away": "DEN",
+            "home": "SD",
+            "gametime": "2015-12-06T16:05:00-04:00"
+        },
+        {
+            "id": "wk13gm12",
+            "away": "KC",
+            "home": "OAK",
+            "gametime": "2015-12-06T16:05:00-04:00"
+        },
+        {
+            "id": "wk13gm13",
+            "away": "PHI",
+            "home": "NE",
+            "gametime": "2015-12-06T16:25:00-04:00"
+        },
+        {
+            "id": "wk13gm14",
+            "away": "IND",
+            "home": "PIT",
+            "gametime": "2015-12-06T20:30:00-04:00"
+        },
+        {
+            "id": "wk13gm15",
+            "away": "DAL",
+            "home": "WSH",
+            "gametime": "2015-12-07T20:30:00-04:00"
+        }
+    ]
+}

@@ -13,7 +13,7 @@
             if (!empty($_SESSION['LoggedIn']) && !empty($_SESSION['Username'])) {
             ?>
                 <h1>Pick Games</h1>
-                <div class="alert alert-info" role="alert">
+                <div id="home-alert" class="alert alert-info" role="alert">
                     Congrats to Chaz - our Week 17 winner!<br />
                     Thanks for a great season; it's been a lot of fun!
                 </div>

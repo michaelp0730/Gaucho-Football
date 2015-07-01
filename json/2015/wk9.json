@@ -1,0 +1,79 @@
+{
+    "id": "wk9",
+    "week": "Week 9",
+    "dates": "November 08, 09 - 2015",
+    "games": [
+        {
+            "id": "wk9gm1",
+            "away": "GB",
+            "home": "CAR",
+            "gametime": "2015-11-08T13:00:00-04:00"
+        },
+        {
+            "id": "wk9gm2",
+            "away": "WSH",
+            "home": "NE",
+            "gametime": "2015-11-08T13:00:00-04:00"
+        },
+        {
+            "id": "wk9gm3",
+            "away": "TEN",
+            "home": "NO",
+            "gametime": "2015-11-08T13:00:00-04:00"
+        },
+        {
+            "id": "wk9gm4",
+            "away": "MIA",
+            "home": "BUF",
+            "gametime": "2015-11-08T13:00:00-04:00"
+        },
+        {
+            "id": "wk9gm5",
+            "away": "STL",
+            "home": "MIN",
+            "gametime": "2015-11-08T13:00:00-04:00"
+        },
+        {
+            "id": "wk9gm6",
+            "away": "JAX",
+            "home": "NYJ",
+            "gametime": "2015-11-08T13:00:00-04:00"
+        },
+        {
+            "id": "wk9gm7",
+            "away": "OAK",
+            "home": "PIT",
+            "gametime": "2015-11-08T13:00:00-04:00"
+        },
+        {
+            "id": "wk9gm8",
+            "away": "NYG",
+            "home": "TB",
+            "gametime": "2015-11-08T16:05:00-04:00"
+        },
+        {
+            "id": "wk9gm9",
+            "away": "ATL",
+            "home": "SF",
+            "gametime": "2015-11-08T16:05:00-04:00"
+        },
+        {
+            "id": "wk9gm10",
+            "away": "DEN",
+            "home": "IND",
+            "gametime": "2015-11-08T16:25:00-04:00"
+        },
+        {
+            "id": "wk9gm11",
+            "away": "PHI",
+            "home": "DAL",
+            "gametime": "2015-11-08T20:30:00-04:00"
+        },
+        {
+            "id": "wk9gm12",
+            "away": "CHI",
+            "home": "SD",
+            "gametime": "2015-11-09T20:30:00-04:00"
+        }
+    ]
+}
