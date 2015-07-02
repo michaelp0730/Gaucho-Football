@@ -2,7 +2,7 @@
 session_start();
 
 $dbhost = "localhost";
-$dbname = "GauchoFootball";
+$dbname = "GauchoFootball2015";
 $dbuser = "root";
 $dbpass = "root";
 
