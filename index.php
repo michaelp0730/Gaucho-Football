@@ -14,8 +14,7 @@
             ?>
                 <h1>Pick Games</h1>
                 <div id="home-alert" class="alert alert-info" role="alert">
-                    Congrats to Chaz - our Week 17 winner!<br />
-                    Thanks for a great season; it's been a lot of fun!
+                    Welcome to Gaucho Football 2015. Week 1 picks are due Sunday Sept 13 at 10:00 am PST.
                 </div>
                 <div id="schedule-container"></div>
             <?php
