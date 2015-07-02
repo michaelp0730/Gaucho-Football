@@ -28,7 +28,7 @@
                     <li><a href="../view-picks.php">View Picks</a></li>
                     <li><a href="../rules.php">Rules</a></li>
                     <li><a href="../help.php">Help</a></li>
-                    <li class="dropdown abs-right">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?=$_SESSION['Username']?> <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li><a href="../logout.php">Sign Out</a></li>
