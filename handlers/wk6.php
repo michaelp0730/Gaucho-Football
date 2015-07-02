@@ -22,7 +22,7 @@ if (!empty($_POST['wk6gm1']) && !empty($_POST['wk6gm2']) && !empty($_POST['wk6gm
     $wk6gm12 = mysql_real_escape_string($_POST['wk6gm12']);
     $wk6gm13 = mysql_real_escape_string($_POST['wk6gm13']);
     $tiebreaker = mysql_real_escape_string($_POST['wk6-tiebreaker']);
-    $due_date = strtotime('2014-10-09T20:25:00-04:00');
+    $due_date = strtotime('2015-10-18T13:00:00-04:00');
     $submission_time = strtotime('now');
     $check_user_submission = mysql_query("SELECT wk6Complete FROM wk6 WHERE Username = '".$username."'");
     $submission_response_array = mysql_fetch_array($check_user_submission);
