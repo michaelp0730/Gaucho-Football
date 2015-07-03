@@ -2016,12 +2016,12 @@
                             <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#view-picks-wk15-accordion" href="#view-picks-wk15-panel">
                                     Week 15
-                                    <span class="dates">December 11, 14, 15 - 2014</span>
+                                    <span class="dates">December 20, 21 &ndash; 2015</span>
                                 </a>
                             </h4>
                         </div>
 
-                        <div id="view-picks-wk15-panel" class="panel-collapse collapse<?php echo(($now > strtotime("08 December 2014") && $now < strtotime("16 December 2014")) ? ' in' : ''); ?>">
+                        <div id="view-picks-wk15-panel" class="panel-collapse collapse<?php echo(($now > strtotime("15 December 2015") && $now < strtotime("23 December 2015")) ? ' in' : ''); ?>">
                             <div class="panel-body">
                                 <div class="table-responsive">
                                     <table id="wk15-picks" class="table table-condensed table-bordered table-striped">
@@ -2030,33 +2030,15 @@
                                                 <th>Username</th>
 
                                                 <th>
-                                                    <div>ARI</div>
+                                                    <div>CHI</div>
                                                     <div>@</div>
-                                                    <div>STL</div>
+                                                    <div>MIN</div>
                                                 </th>
 
                                                 <th>
-                                                    <div>PIT</div>
-                                                    <div>@</div>
                                                     <div>ATL</div>
-                                                </th>
-
-                                                <th>
-                                                    <div>WSH</div>
                                                     <div>@</div>
-                                                    <div>NYG</div>
-                                                </th>
-
-                                                <th>
-                                                    <div>MIA</div>
-                                                    <div>@</div>
-                                                    <div>NE</div>
-                                                </th>
-
-                                                <th>
-                                                    <div>OAK</div>
-                                                    <div>@</div>
-                                                    <div>KC</div>
+                                                    <div>JAX</div>
                                                 </th>
 
                                                 <th>
@@ -2066,63 +2048,69 @@
                                                 </th>
 
                                                 <th>
-                                                    <div>JAX</div>
-                                                    <div>@</div>
-                                                    <div>BAL</div>
-                                                </th>
-
-                                                <th>
-                                                    <div>GB</div>
-                                                    <div>@</div>
-                                                    <div>BUF</div>
-                                                </th>
-
-                                                <th>
-                                                    <div>TB</div>
-                                                    <div>@</div>
-                                                    <div>CAR</div>
-                                                </th>
-
-                                                <th>
-                                                    <div>CIN</div>
-                                                    <div>@</div>
-                                                    <div>CLE</div>
-                                                </th>
-
-                                                <th>
-                                                    <div>MIN</div>
-                                                    <div>@</div>
-                                                    <div>DET</div>
-                                                </th>
-
-                                                <th>
-                                                    <div>NYJ</div>
-                                                    <div>@</div>
-                                                    <div>TEN</div>
-                                                </th>
-
-                                                <th>
-                                                    <div>DEN</div>
-                                                    <div>@</div>
-                                                    <div>SD</div>
-                                                </th>
-
-                                                <th>
-                                                    <div>SF</div>
-                                                    <div>@</div>
-                                                    <div>SEA</div>
-                                                </th>
-
-                                                <th>
-                                                    <div>DAL</div>
+                                                    <div>ARI</div>
                                                     <div>@</div>
                                                     <div>PHI</div>
                                                 </th>
 
                                                 <th>
-                                                    <div>NO</div>
+                                                    <div>CAR</div>
                                                     <div>@</div>
-                                                    <div>CHI</div>
+                                                    <div>NYG</div>
+                                                </th>
+
+                                                <th>
+                                                    <div>TEN</div>
+                                                    <div>@</div>
+                                                    <div>NE</div>
+                                                </th>
+
+                                                <th>
+                                                    <div>BUF</div>
+                                                    <div>@</div>
+                                                    <div>WSH</div>
+                                                </th>
+
+                                                <th>
+                                                    <div>KC</div>
+                                                    <div>@</div>
+                                                    <div>BAL</div>
+                                                </th>
+
+                                                <th>
+                                                    <div>CLE</div>
+                                                    <div>@</div>
+                                                    <div>SEA</div>
+                                                </th>
+
+                                                <th>
+                                                    <div>GB</div>
+                                                    <div>@</div>
+                                                    <div>OAK</div>
+                                                </th>
+
+                                                <th>
+                                                    <div>DEN</div>
+                                                    <div>@</div>
+                                                    <div>PIT</div>
+                                                </th>
+
+                                                <th>
+                                                    <div>MIA</div>
+                                                    <div>@</div>
+                                                    <div>SD</div>
+                                                </th>
+
+                                                <th>
+                                                    <div>CIN</div>
+                                                    <div>@</div>
+                                                    <div>SF</div>
+                                                </th>
+
+                                                <th>
+                                                    <div>DET</div>
+                                                    <div>@</div>
+                                                    <div>NO</div>
                                                 </th>
 
                                                 <th>Monday Total Points</th>
@@ -2140,7 +2128,7 @@
                                             $wk15_total_wins = 0;
                                         ?>
                                             <tr>
-                                                <td class="<?php if ($wk15row[0] == '') { echo 'success'; } ?>"><?php echo $wk15row[0]; ?> </td>
+                                                <td><?php echo $wk15row[0]; ?> </td>
                                                 <td class="<?php if ($wk15row[1] == '') { echo 'success'; $wk15_total_wins++; } ?>"><?php echo $wk15row[1]; ?> </td>
                                                 <td class="<?php if ($wk15row[2] == '') { echo 'success'; $wk15_total_wins++; } ?>"><?php echo $wk15row[2]; ?> </td>
                                                 <td class="<?php if ($wk15row[3] == '') { echo 'success'; $wk15_total_wins++; } ?>"><?php echo $wk15row[3]; ?> </td>
@@ -2155,18 +2143,13 @@
                                                 <td class="<?php if ($wk15row[12] == '') { echo 'success'; $wk15_total_wins++; } ?>"><?php echo $wk15row[12]; ?> </td>
                                                 <td class="<?php if ($wk15row[13] == '') { echo 'success'; $wk15_total_wins++; } ?>"><?php echo $wk15row[13]; ?> </td>
                                                 <td class="<?php if ($wk15row[14] == '') { echo 'success'; $wk15_total_wins++; } ?>"><?php echo $wk15row[14]; ?> </td>
-                                                <td class="<?php if ($wk15row[15] == '') { echo 'success'; $wk15_total_wins++; } ?>"><?php echo $wk15row[15]; ?> </td>
-                                                <td class="<?php if ($wk15row[16] == '') { echo 'success'; $wk15_total_wins++; } ?>"><?php echo $wk15row[16]; ?> </td>
-                                                <td class="<?php if ($wk15row[17] == '') { echo 'success'; } ?>"><?php echo $wk15row[17]; ?> </td>
+                                                <td><?php echo $wk15row[15]; ?> </td>
                                                 <td><?php echo $wk15_total_wins; ?></td>
                                             </tr>
                                         <?php } ?>
                                         </tbody>
                                         <?php } ?>
                                     </table>
-                                </div>
-                                <div class="alert alert-info" role="alert">
-                                    NO wins on Monday night. 46 total points. Pellegrini is our winner!
                                 </div>
                             </div>
                         </div>
@@ -2179,12 +2162,12 @@
                             <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#view-picks-wk16-accordion" href="#view-picks-wk16-panel">
                                     Week 16
-                                    <span class="dates">December 18, 20, 21 - 2014</span>
+                                    <span class="dates">December 27, 28 &ndash; 2015</span>
                                 </a>
                             </h4>
                         </div>
 
-                        <div id="view-picks-wk16-panel" class="panel-collapse collapse<?php echo(($now > strtotime("15 December 2014") && $now < strtotime("22 December 2014")) ? ' in' : ''); ?>">
+                        <div id="view-picks-wk16-panel" class="panel-collapse collapse<?php echo(($now > strtotime("22 December 2015") && $now < strtotime("30 December 2015")) ? ' in' : ''); ?>">
                             <div class="panel-body">
                                 <div class="table-responsive">
                                     <table id="wk16-picks" class="table table-condensed table-bordered table-striped">
@@ -2193,99 +2176,81 @@
                                                 <th>Username</th>
 
                                                 <th>
-                                                    <div>TEN</div>
-                                                    <div>@</div>
-                                                    <div>JAX</div>
-                                                </th>
-
-                                                <th>
-                                                    <div>SD</div>
-                                                    <div>@</div>
-                                                    <div>SF</div>
-                                                </th>
-
-                                                <th>
-                                                    <div>PHI</div>
-                                                    <div>@</div>
-                                                    <div>WSH</div>
-                                                </th>
-
-                                                <th>
-                                                    <div>MIN</div>
-                                                    <div>@</div>
-                                                    <div>MIA</div>
-                                                </th>
-
-                                                <th>
-                                                    <div>BAL</div>
-                                                    <div>@</div>
-                                                    <div>HOU</div>
-                                                </th>
-
-                                                <th>
-                                                    <div>DET</div>
-                                                    <div>@</div>
-                                                    <div>CHI</div>
-                                                </th>
-
-                                                <th>
-                                                    <div>CLE</div>
-                                                    <div>@</div>
-                                                    <div>CAR</div>
-                                                </th>
-
-                                                <th>
-                                                    <div>ATL</div>
-                                                    <div>@</div>
-                                                    <div>NO</div>
-                                                </th>
-
-                                                <th>
-                                                    <div>GB</div>
-                                                    <div>@</div>
-                                                    <div>TB</div>
-                                                </th>
-
-                                                <th>
-                                                    <div>KC</div>
-                                                    <div>@</div>
-                                                    <div>PIT</div>
-                                                </th>
-
-                                                <th>
                                                     <div>NE</div>
                                                     <div>@</div>
                                                     <div>NYJ</div>
                                                 </th>
 
                                                 <th>
-                                                    <div>NYG</div>
+                                                    <div>HOU</div>
                                                     <div>@</div>
-                                                    <div>STL</div>
+                                                    <div>TEN</div>
                                                 </th>
 
                                                 <th>
-                                                    <div>BUF</div>
+                                                    <div>CLE</div>
                                                     <div>@</div>
-                                                    <div>OAK</div>
+                                                    <div>KC</div>
                                                 </th>
 
                                                 <th>
                                                     <div>IND</div>
                                                     <div>@</div>
-                                                    <div>DAL</div>
+                                                    <div>MIA</div>
                                                 </th>
 
                                                 <th>
+                                                    <div>JAX</div>
+                                                    <div>@</div>
+                                                    <div>NO</div>
+                                                </th>
+
+                                                <th>
+                                                    <div>SF</div>
+                                                    <div>@</div>
+                                                    <div>DET</div>
+                                                </th>
+
+                                                <th>
+                                                    <div>DAL</div>
+                                                    <div>@</div>
+                                                    <div>BUF</div>
+                                                </th>
+
+                                                <th>
+                                                    <div>CHI</div>
+                                                    <div>@</div>
+                                                    <div>TB</div>
+                                                </th>
+
+                                                <th>
+                                                    <div>NYG</div>
+                                                    <div>@</div>
+                                                    <div>MIN</div>
+                                                </th>
+
+                                                <th>
+                                                    <div>STL</div>
+                                                    <div>@</div>
                                                     <div>SEA</div>
+                                                </th>
+
+                                                <th>
+                                                    <div>GB</div>
                                                     <div>@</div>
                                                     <div>ARI</div>
                                                 </th>
 
                                                 <th>
-                                                    <div>DEN</div>
+                                                    <div>PIT</div>
                                                     <div>@</div>
+                                                    <div>BAL</div>
+                                                </th>
+
+                                                <th>
                                                     <div>CIN</div>
+                                                    <div>@</div>
+                                                    <div>DEN</div>
                                                 </th>
 
                                                 <th>Monday Total Points</th>
@@ -2303,7 +2268,7 @@
                                             $wk16_total_wins = 0;
                                         ?>
                                             <tr>
-                                                <td class="<?php if ($wk16row[0] == '') { echo 'success'; } ?>"><?php echo $wk16row[0]; ?> </td>
+                                                <td><?php echo $wk16row[0]; ?> </td>
                                                 <td class="<?php if ($wk16row[1] == '') { echo 'success'; $wk16_total_wins++; } ?>"><?php echo $wk16row[1]; ?> </td>
                                                 <td class="<?php if ($wk16row[2] == '') { echo 'success'; $wk16_total_wins++; } ?>"><?php echo $wk16row[2]; ?> </td>
                                                 <td class="<?php if ($wk16row[3] == '') { echo 'success'; $wk16_total_wins++; } ?>"><?php echo $wk16row[3]; ?> </td>
@@ -2317,10 +2282,7 @@
                                                 <td class="<?php if ($wk16row[11] == '') { echo 'success'; $wk16_total_wins++; } ?>"><?php echo $wk16row[11]; ?> </td>
                                                 <td class="<?php if ($wk16row[12] == '') { echo 'success'; $wk16_total_wins++; } ?>"><?php echo $wk16row[12]; ?> </td>
                                                 <td class="<?php if ($wk16row[13] == '') { echo 'success'; $wk16_total_wins++; } ?>"><?php echo $wk16row[13]; ?> </td>
-                                                <td class="<?php if ($wk16row[14] == '') { echo 'success'; $wk16_total_wins++; } ?>"><?php echo $wk16row[14]; ?> </td>
-                                                <td class="<?php if ($wk16row[15] == '') { echo 'success'; $wk16_total_wins++; } ?>"><?php echo $wk16row[15]; ?> </td>
-                                                <td class="<?php if ($wk16row[16] == '') { echo 'success'; $wk16_total_wins++; } ?>"><?php echo $wk16row[16]; ?> </td>
-                                                <td class="<?php if ($wk16row[17] == '') { echo 'success'; } ?>"><?php echo $wk16row[17]; ?> </td>
+                                                <td><?php echo $wk16row[14]; ?> </td>
                                                 <td><?php echo $wk16_total_wins; ?></td>
                                             </tr>
                                         <?php } ?>
@@ -2339,12 +2301,12 @@
                             <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#view-picks-wk17-accordion" href="#view-picks-wk17-panel">
                                     Week 17
-                                    <span class="dates">December 28 - 2014</span>
+                                    <span class="dates">January 03 &ndash; 2016</span>
                                 </a>
                             </h4>
                         </div>
 
-                        <div id="view-picks-wk17-panel" class="panel-collapse collapse<?php echo(($now > strtotime("21 December 2014") && $now < strtotime("01 January 2015")) ? ' in' : ''); ?>">
+                        <div id="view-picks-wk17-panel" class="panel-collapse collapse<?php echo(($now > strtotime("29 December 2015") ? ' in' : ''); ?>">
                             <div class="panel-body">
                                 <div class="table-responsive">
                                     <table id="wk17-picks" class="table table-condensed table-bordered table-striped">
@@ -2353,33 +2315,39 @@
                                                 <th>Username</th>
 
                                                 <th>
+                                                    <div>NYJ</div>
+                                                    <div>@</div>
+                                                    <div>BUF</div>
+                                                </th>
+
+                                                <th>
+                                                    <div>NE</div>
+                                                    <div>@</div>
+                                                    <div>MIA</div>
+                                                </th>
+
+                                                <th>
+                                                    <div>TB</div>
+                                                    <div>@</div>
                                                     <div>CAR</div>
+                                                </th>
+
+                                                <th>
+                                                    <div>NO</div>
                                                     <div>@</div>
                                                     <div>ATL</div>
                                                 </th>
 
                                                 <th>
-                                                    <div>CLE</div>
-                                                    <div>@</div>
                                                     <div>BAL</div>
+                                                    <div>@</div>
+                                                    <div>CIN</div>
                                                 </th>
 
                                                 <th>
-                                                    <div>DAL</div>
+                                                    <div>PIT</div>
                                                     <div>@</div>
-                                                    <div>WSH</div>
-                                                </th>
-
-                                                <th>
-                                                    <div>IND</div>
-                                                    <div>@</div>
-                                                    <div>TEN</div>
-                                                </th>
-
-                                                <th>
-                                                    <div>DET</div>
-                                                    <div>@</div>
-                                                    <div>GB</div>
+                                                    <div>CLE</div>
                                                 </th>
 
                                                 <th>
@@ -2389,27 +2357,21 @@
                                                 </th>
 
                                                 <th>
-                                                    <div>SD</div>
+                                                    <div>TEN</div>
+                                                    <div>@</div>
+                                                    <div>IND</div>
+                                                </th>
+
+                                                <th>
+                                                    <div>OAK</div>
                                                     <div>@</div>
                                                     <div>KC</div>
                                                 </th>
 
                                                 <th>
-                                                    <div>NYJ</div>
+                                                    <div>WSH</div>
                                                     <div>@</div>
-                                                    <div>MIA</div>
-                                                </th>
-
-                                                <th>
-                                                    <div>CHI</div>
-                                                    <div>@</div>
-                                                    <div>MIN</div>
-                                                </th>
-
-                                                <th>
-                                                    <div>BUF</div>
-                                                    <div>@</div>
-                                                    <div>NE</div>
+                                                    <div>DAL</div>
                                                 </th>
 
                                                 <th>
@@ -2419,33 +2381,33 @@
                                                 </th>
 
                                                 <th>
-                                                    <div>CIN</div>
+                                                    <div>DET</div>
                                                     <div>@</div>
-                                                    <div>PIT</div>
+                                                    <div>CHI</div>
                                                 </th>
 
                                                 <th>
-                                                    <div>NO</div>
+                                                    <div>MIN</div>
                                                     <div>@</div>
-                                                    <div>TB</div>
+                                                    <div>GB</div>
                                                 </th>
 
                                                 <th>
-                                                    <div>OAK</div>
+                                                    <div>SD</div>
                                                     <div>@</div>
                                                     <div>DEN</div>
                                                 </th>
 
                                                 <th>
-                                                    <div>ARI</div>
+                                                    <div>SEA</div>
                                                     <div>@</div>
-                                                    <div>SF</div>
+                                                    <div>ARI</div>
                                                 </th>
 
                                                 <th>
                                                     <div>STL</div>
                                                     <div>@</div>
-                                                    <div>SEA</div>
+                                                    <div>SF</div>
                                                 </th>
 
                                                 <th>Monday Total Points</th>
@@ -2463,7 +2425,7 @@
                                             $wk17_total_wins = 0;
                                         ?>
                                             <tr>
-                                                <td class="<?php if ($wk17row[0] == '') { echo 'success'; } ?>"><?php echo $wk17row[0]; ?> </td>
+                                                <td><?php echo $wk17row[0]; ?> </td>
                                                 <td class="<?php if ($wk17row[1] == '') { echo 'success'; $wk17_total_wins++; } ?>"><?php echo $wk17row[1]; ?> </td>
                                                 <td class="<?php if ($wk17row[2] == '') { echo 'success'; $wk17_total_wins++; } ?>"><?php echo $wk17row[2]; ?> </td>
                                                 <td class="<?php if ($wk17row[3] == '') { echo 'success'; $wk17_total_wins++; } ?>"><?php echo $wk17row[3]; ?> </td>
@@ -2480,7 +2442,7 @@
                                                 <td class="<?php if ($wk17row[14] == '') { echo 'success'; $wk17_total_wins++; } ?>"><?php echo $wk17row[14]; ?> </td>
                                                 <td class="<?php if ($wk17row[15] == '') { echo 'success'; $wk17_total_wins++; } ?>"><?php echo $wk17row[15]; ?> </td>
                                                 <td class="<?php if ($wk17row[16] == '') { echo 'success'; $wk17_total_wins++; } ?>"><?php echo $wk17row[16]; ?> </td>
-                                                <td class="<?php if ($wk17row[17] == '') { echo 'success'; } ?>"><?php echo $wk17row[17]; ?> </td>
+                                                <td><?php echo $wk17row[17]; ?> </td>
                                                 <td><?php echo $wk17_total_wins; ?></td>
                                             </tr>
                                         <?php } ?>
