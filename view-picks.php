@@ -156,7 +156,7 @@
                                                 <td class="<?php if ($wk1row[13] == '') { echo 'success'; $wk1_total_wins++; } ?>"><?php echo $wk1row[13]; ?> </td>
                                                 <td class="<?php if ($wk1row[14] == '') { echo 'success'; $wk1_total_wins++; } ?>"><?php echo $wk1row[14]; ?> </td>
                                                 <td class="<?php if ($wk1row[15] == '') { echo 'success'; $wk1_total_wins++; } ?>"><?php echo $wk1row[15]; ?> </td>
-                                                <td><?php $wk1row[16] ?></td>
+                                                <td><?php echo $wk1row[16]; ?></td>
                                                 <td><?php echo $wk1_total_wins; ?></td>
                                             </tr>
                                         <?php } ?>
@@ -309,7 +309,7 @@
                                                 <td class="<?php if ($wk2row[13] == '') { echo 'success'; $wk2_total_wins++; } ?>"><?php echo $wk2row[13]; ?> </td>
                                                 <td class="<?php if ($wk2row[14] == '') { echo 'success'; $wk2_total_wins++; } ?>"><?php echo $wk2row[14]; ?> </td>
                                                 <td class="<?php if ($wk2row[15] == '') { echo 'success'; $wk2_total_wins++; } ?>"><?php echo $wk2row[15]; ?> </td>
-                                                <td><?php $wk1row[16] ?></td>
+                                                <td><?php echo $wk2row[16]; ?></td>
                                                 <td><?php echo $wk2_total_wins; ?></td>
                                             </tr>
                                         <?php } ?>
@@ -461,7 +461,7 @@
                                                 <td class="<?php if ($wk3row[12] == '') { echo 'success'; $wk3_total_wins++; } ?>"><?php echo $wk3row[12]; ?> </td>
                                                 <td class="<?php if ($wk3row[13] == '') { echo 'success'; $wk3_total_wins++; } ?>"><?php echo $wk3row[13]; ?> </td>
                                                 <td class="<?php if ($wk3row[14] == '') { echo 'success'; $wk3_total_wins++; } ?>"><?php echo $wk3row[14]; ?> </td>
-                                                <td><?php $wk1row[15] ?></td>
+                                                <td><?php echo $wk3row[15]; ?></td>
                                                 <td><?php echo $wk3_total_wins; ?></td>
                                             </tr>
                                         <?php } ?>
@@ -600,7 +600,7 @@
                                                 <td class="<?php if ($wk4row[11] == '') { echo 'success'; $wk4_total_wins++; } ?>"><?php echo $wk4row[11]; ?> </td>
                                                 <td class="<?php if ($wk4row[12] == '') { echo 'success'; $wk4_total_wins++; } ?>"><?php echo $wk4row[12]; ?> </td>
                                                 <td class="<?php if ($wk4row[13] == '') { echo 'success'; $wk4_total_wins++; } ?>"><?php echo $wk4row[13]; ?> </td>
-                                                <td><?php $wk1row[14] ?></td>
+                                                <td><?php $wk4row[14]; ?></td>
                                                 <td><?php echo $wk4_total_wins; ?></td>
                                             </tr>
                                         <?php } ?>
@@ -739,7 +739,7 @@
                                                 <td class="<?php if ($wk5row[11] == '') { echo 'success'; $wk5_total_wins++; } ?>"><?php echo $wk5row[11]; ?> </td>
                                                 <td class="<?php if ($wk5row[12] == '') { echo 'success'; $wk5_total_wins++; } ?>"><?php echo $wk5row[12]; ?> </td>
                                                 <td class="<?php if ($wk5row[13] == '') { echo 'success'; $wk5_total_wins++; } ?>"><?php echo $wk5row[13]; ?> </td>
-                                                <td><?php $wk1row[14] ?></td>
+                                                <td><?php $wk5row[14]; ?></td>
                                                 <td><?php echo $wk5_total_wins; ?></td>
                                             </tr>
                                         <?php } ?>
@@ -2306,7 +2306,7 @@
                             </h4>
                         </div>
 
-                        <div id="view-picks-wk17-panel" class="panel-collapse collapse<?php echo(($now > strtotime("29 December 2015") ? ' in' : ''); ?>">
+                        <div id="view-picks-wk17-panel" class="panel-collapse collapse<?php echo($now > strtotime("29 December 2015") ? ' in' : ''); ?>">
                             <div class="panel-body">
                                 <div class="table-responsive">
                                     <table id="wk17-picks" class="table table-condensed table-bordered table-striped">
