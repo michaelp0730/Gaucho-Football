@@ -5,8 +5,8 @@ if (!empty($_POST['wk3gm1']) && !empty($_POST['wk3gm2']) && !empty($_POST['wk3gm
     !empty($_POST['wk3gm4']) && !empty($_POST['wk3gm5']) && !empty($_POST['wk3gm6']) &&
     !empty($_POST['wk3gm7']) && !empty($_POST['wk3gm8']) && !empty($_POST['wk3gm9']) &&
     !empty($_POST['wk3gm10']) && !empty($_POST['wk3gm11']) && !empty($_POST['wk3gm12']) &&
-    !empty($_POST['wk3gm13']) && !empty($_POST['wk3gm14']) && !empty($_POST['wk3-tiebreaker']) &&
-    !empty($_SESSION['LoggedIn']) && !empty($_SESSION['Username'])) {
+    !empty($_POST['wk3gm13']) && !empty($_POST['wk3gm14']) && !empty($_POST['wk3gm15']) && 
+    !empty($_POST['wk3-tiebreaker']) && !empty($_SESSION['LoggedIn']) && !empty($_SESSION['Username'])) {
     $username = $_SESSION['Username'];
     $wk3gm1 = mysql_real_escape_string($_POST['wk3gm1']);
     $wk3gm2 = mysql_real_escape_string($_POST['wk3gm2']);
@@ -22,6 +22,7 @@ if (!empty($_POST['wk3gm1']) && !empty($_POST['wk3gm2']) && !empty($_POST['wk3gm
     $wk3gm12 = mysql_real_escape_string($_POST['wk3gm12']);
     $wk3gm13 = mysql_real_escape_string($_POST['wk3gm13']);
     $wk3gm14 = mysql_real_escape_string($_POST['wk3gm14']);
+    $wk3gm15 = mysql_real_escape_string($_POST['wk3gm15']);
     $tiebreaker = mysql_real_escape_string($_POST['wk3-tiebreaker']);
     $due_date = strtotime('2015-09-27T13:00:00-04:00');
     $submission_time = strtotime('now');
@@ -34,11 +35,11 @@ if (!empty($_POST['wk3gm1']) && !empty($_POST['wk3gm2']) && !empty($_POST['wk3gm
         echo '<div class="alert alert-danger" role="alert"><strong>Error:</strong> Your submission is too late. The first game of Week 3 has already started. Please try again next week.</div>';
     } else {
         $submit_wk3 = mysql_query("INSERT INTO wk3 (Username, wk3gm1, wk3gm2, wk3gm3, wk3gm4,
-            wk3gm5, wk3gm6, wk3gm7, wk3gm8, wk3gm9, wk3gm10, wk3gm11, wk3gm12, wk3gm13, wk3gm14,
+            wk3gm5, wk3gm6, wk3gm7, wk3gm8, wk3gm9, wk3gm10, wk3gm11, wk3gm12, wk3gm13, wk3gm14, wk3gm15,
             MondayTotalPoints, wk3Complete)
             VALUES('".$username."', '".$wk3gm1."', '".$wk3gm2."', '".$wk3gm3."', '".$wk3gm4."',
             '".$wk3gm5."', '".$wk3gm6."', '".$wk3gm7."', '".$wk3gm8."', '".$wk3gm9."',
-            '".$wk3gm10."', '".$wk3gm11."', '".$wk3gm12."', '".$wk3gm13."', '".$wk3gm14."',
+            '".$wk3gm10."', '".$wk3gm11."', '".$wk3gm12."', '".$wk3gm13."', '".$wk3gm14."', '".$wk3gm15."',
             '".$tiebreaker."', true)");
 
         if ($submit_wk3) {

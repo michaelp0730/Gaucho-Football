@@ -65,6 +65,7 @@ CREATE TABLE `wk3` (
 `wk3gm12` VARCHAR(5) NOT NULL ,
 `wk3gm13` VARCHAR(5) NOT NULL ,
 `wk3gm14` VARCHAR(5) NOT NULL ,
+`wk3gm15` VARCHAR(5) NOT NULL ,
 `MondayTotalPoints` INT(5) NOT NULL ,
 `wk3Complete` BOOL NOT NULL
 );

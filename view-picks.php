@@ -446,7 +446,7 @@
                                             $wk3_total_wins = 0;
                                         ?>
                                             <tr>
-                                                <td>"><?php echo $wk3row[0]; ?> </td>
+                                                <td><?php echo $wk3row[0]; ?> </td>
                                                 <td class="<?php if ($wk3row[1] == '') { echo 'success'; $wk3_total_wins++; } ?>"><?php echo $wk3row[1]; ?> </td>
                                                 <td class="<?php if ($wk3row[2] == '') { echo 'success'; $wk3_total_wins++; } ?>"><?php echo $wk3row[2]; ?> </td>
                                                 <td class="<?php if ($wk3row[3] == '') { echo 'success'; $wk3_total_wins++; } ?>"><?php echo $wk3row[3]; ?> </td>
@@ -461,7 +461,8 @@
                                                 <td class="<?php if ($wk3row[12] == '') { echo 'success'; $wk3_total_wins++; } ?>"><?php echo $wk3row[12]; ?> </td>
                                                 <td class="<?php if ($wk3row[13] == '') { echo 'success'; $wk3_total_wins++; } ?>"><?php echo $wk3row[13]; ?> </td>
                                                 <td class="<?php if ($wk3row[14] == '') { echo 'success'; $wk3_total_wins++; } ?>"><?php echo $wk3row[14]; ?> </td>
-                                                <td><?php echo $wk3row[15]; ?></td>
+                                                <td class="<?php if ($wk3row[15] == '') { echo 'success'; $wk3_total_wins++; } ?>"><?php echo $wk3row[15]; ?> </td>
+                                                <td><?php echo $wk3row[16]; ?></td>
                                                 <td><?php echo $wk3_total_wins; ?></td>
                                             </tr>
                                         <?php } ?>
