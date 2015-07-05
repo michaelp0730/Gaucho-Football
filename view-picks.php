@@ -2,6 +2,7 @@
     $title = 'View Picks | Gaucho Football';
     $pick_games_active = false;
     $view_picks_active = true;
+    $forum_active = false;
     $rules_active = false;
     $help_active = false;
     $now = strtotime('now');

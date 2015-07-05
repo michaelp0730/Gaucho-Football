@@ -2,6 +2,7 @@
     $title = 'Rules | Gaucho Football';
     $pick_games_active = false;
     $view_picks_active = false;
+    $forum_active = false;
     $rules_active = true;
     $help_active = false;
     require './_includes/header.php';
