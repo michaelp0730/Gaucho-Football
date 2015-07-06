@@ -27,7 +27,7 @@
                 $password = md5(mysql_real_escape_string($_POST['password']));
                 $checklogin = mysql_query("SELECT * FROM users WHERE Username = '".$username."' AND Password = '".$password."'");
 
-                if(mysql_num_rows($checklogin) == 1) {
+                if (mysql_num_rows($checklogin) == 1) {
                     $row = mysql_fetch_array($checklogin);
                     $email = $row['EmailAddress'];
                     $_SESSION['Username'] = $username;
