@@ -27,6 +27,10 @@
     var_dump($all_posts);
 
     //var_dump($_SESSION);
+
+    $user = get_user("1");
+    echo("HERE");
+    var_dump($user);
 ?>
     <div class="container-fluid">
         <div class="row">
