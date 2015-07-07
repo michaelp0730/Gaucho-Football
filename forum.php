@@ -10,18 +10,23 @@
     $user_email = $_SESSION['EmailAddress'];
     $checklogin = mysql_query("SELECT * FROM users WHERE EmailAddress = '".$user_email."'");
 
+    // Get current user's ID
     if (mysql_num_rows($checklogin) == 1) {
         $row = mysql_fetch_array($checklogin);
         $user_id = $row['UserID'];
     }
 
-    var_dump($_SESSION);
-
+    // Handle POST request
     if (!empty($_POST['new-post']) ) {
         $body = substr($_POST['new-post'], 0, 255);
         add_post($user_id, $body);
         $_SESSION['message'] = "Your post has been added!";
     }
+
+    $all_posts = get_all_posts();
+    var_dump($all_posts);
+
+    //var_dump($_SESSION);
 ?>
     <div class="container-fluid">
         <div class="row">
