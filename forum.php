@@ -7,23 +7,24 @@
     $rules_active = false;
     $help_active = false;
     require './_includes/header.php';
-    $user_email = $_SESSION['EmailAddress'];
+    $user_email = $_SESSION["EmailAddress"];
     $checklogin = mysql_query("SELECT * FROM users WHERE EmailAddress = '".$user_email."'");
 
     // Get current user's ID
     if (mysql_num_rows($checklogin) == 1) {
         $row = mysql_fetch_array($checklogin);
-        $user_id = $row['UserID'];
+        $user_id = $row["UserID"];
     }
 
     // Handle POST request
-    if (!empty($_POST['new-post']) ) {
-        $body = substr($_POST['new-post'], 0, 255);
+    if (!empty($_POST["new-post"]) ) {
+        $body = substr($_POST["new-post"], 0, 255);
         add_post($user_id, $body);
-        $_SESSION['message'] = "Your post has been added!";
+        $_SESSION["message"] = "Your post has been added!";
     }
 
     $all_posts = get_all_posts();
+    //var_dump($all_posts);
 ?>
     <div class="container-fluid">
         <div class="row">
@@ -35,6 +36,7 @@
                     <form id="posts-form" method="POST" action="forum.php">
                         <textarea id="new-post" name="new-post"></textarea>
                         <div>
+                            <p id="character-count" class="right"></p>
                             <input type="submit" name="submit-post" id="submit-post" value="Submit" class="btn btn-primary" />
                         </div>
                     </form>
@@ -46,7 +48,7 @@
                             <a href="#">
                                 <?php
                                     $post_user_id = $post["user_id"];
-                                    $post_user = get_user(strval($post_user_id));
+                                    $post_user = get_user($post_user_id);
                                     $post_user_email = $post_user[0]["EmailAddress"];
                                     $size = 64;
                                     $grav_url = "http://www.gravatar.com/avatar/" . md5( strtolower( trim( $post_user_email ) ) ) . "?d=" . "&s=" . $size;
@@ -57,10 +59,13 @@
                         </div>
                         <div class="media-body">
                             <p><? echo($post["body"]); ?></p>
+                            <small><? echo($post["stamp"]); ?></small>
                         </div>
                     </div>
                 <?php endforeach ?>
                 </div>
+            <?php } else { ?>
+                <h3><a href="./index.php">Home</a></h3>
             <?php } ?>
             </div>
         </div>

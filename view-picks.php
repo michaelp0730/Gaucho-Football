@@ -2457,6 +2457,8 @@
                     </div>
                 </div>
             </div>
+        <?php } else { ?>
+            <h3><a href="./index.php">Home</a></h3>
         <?php } ?>
         </div>
     </div>

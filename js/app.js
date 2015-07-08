@@ -93,5 +93,19 @@
                 alert('Invalid Email Address');
             }
         });
+
+        var textMax = 255;
+        $('#character-count').html(textMax + ' characters remaining');
+        $('#new-post').keyup(function () {
+            var textLength = $('#new-post').val().length;
+            var textRemaining = textMax - textLength;
+            $('#character-count').html(textRemaining + ' characters remaining');
+
+            if (textRemaining >= 0) {
+                $('#submit-post').prop('disabled', false);
+            } else {
+                $('#submit-post').prop('disabled', true);
+            }
+        });
     });
 }());
