@@ -24,13 +24,6 @@
     }
 
     $all_posts = get_all_posts();
-    var_dump($all_posts);
-
-    //var_dump($_SESSION);
-
-    $user = get_user("1");
-    echo("HERE");
-    var_dump($user);
 ?>
     <div class="container-fluid">
         <div class="row">
@@ -47,21 +40,26 @@
                     </form>
                 </div>
                 <div class="col-md-7">
+                <?php foreach ($all_posts as $post): ?>
                     <div class="media">
                         <div class="media-left">
                             <a href="#">
                                 <?php
-                                    $email = $_SESSION["EmailAddress"];
+                                    $post_user_id = $post["user_id"];
+                                    $post_user = get_user(strval($post_user_id));
+                                    $post_user_email = $post_user[0]["EmailAddress"];
                                     $size = 64;
-                                    $grav_url = "http://www.gravatar.com/avatar/" . md5( strtolower( trim( $email ) ) ) . "?d=" . "&s=" . $size;
+                                    $grav_url = "http://www.gravatar.com/avatar/" . md5( strtolower( trim( $post_user_email ) ) ) . "?d=" . "&s=" . $size;
                                 ?>
                                 <img class="media-object" src="<?php echo $grav_url; ?>" alt="" />
+                                <? echo($post_user[0]["Username"]); ?>
                             </a>
                         </div>
                         <div class="media-body">
-                            <p>Proin eget tortor risus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                            <p><? echo($post["body"]); ?></p>
                         </div>
                     </div>
+                <?php endforeach ?>
                 </div>
             <?php } ?>
             </div>
