@@ -1,0 +1,85 @@
+{
+    "id": "wk12",
+    "week": "Week 12",
+    "dates": "November 29, 30 - 2015",
+    "games": [
+        {
+            "id": "wk12gm1",
+            "away": "NO",
+            "home": "HOU",
+            "gametime": "2015-11-29T13:00:00-04:00"
+        },
+        {
+            "id": "wk12gm2",
+            "away": "STL",
+            "home": "CIN",
+            "gametime": "2015-11-29T13:00:00-04:00"
+        },
+        {
+            "id": "wk12gm3",
+            "away": "MIN",
+            "home": "ATL",
+            "gametime": "2015-11-29T13:00:00-04:00"
+        },
+        {
+            "id": "wk12gm4",
+            "away": "NYG",
+            "home": "WSH",
+            "gametime": "2015-11-29T13:00:00-04:00"
+        },
+        {
+            "id": "wk12gm5",
+            "away": "TB",
+            "home": "IND",
+            "gametime": "2015-11-29T13:00:00-04:00"
+        },
+        {
+            "id": "wk12gm6",
+            "away": "BUF",
+            "home": "KC",
+            "gametime": "2015-11-29T13:00:00-04:00"
+        },
+        {
+            "id": "wk12gm7",
+            "away": "OAK",
+            "home": "TEN",
+            "gametime": "2015-11-29T13:00:00-04:00"
+        },
+        {
+            "id": "wk12gm8",
+            "away": "SD",
+            "home": "JAX",
+            "gametime": "2015-11-29T13:00:00-04:00"
+        },
+        {
+            "id": "wk12gm9",
+            "away": "MIA",
+            "home": "NYJ",
+            "gametime": "2015-11-29T13:00:00-04:00"
+        },
+        {
+            "id": "wk12gm10",
+            "away": "ARI",
+            "home": "SF",
+            "gametime": "2015-11-29T16:05:00-04:00"
+        },
+        {
+            "id": "wk12gm11",
+            "away": "PIT",
+            "home": "SEA",
+            "gametime": "2015-11-29T16:25:00-04:00"
+        },
+        {
+            "id": "wk12gm12",
+            "away": "NE",
+            "home": "DEN",
+            "gametime": "2015-11-29T20:30:00-04:00"
+        },
+        {
+            "id": "wk12gm13",
+            "away": "BAL",
+            "home": "CLE",
+            "gametime": "2015-11-30T20:30:00-04:00"
+        }
+    ]
+}

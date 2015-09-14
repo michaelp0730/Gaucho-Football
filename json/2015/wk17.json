@@ -1,0 +1,103 @@
+{
+    "id": "wk17",
+    "week": "Week 17",
+    "dates": "January 03 - 2016",
+    "games": [
+        {
+            "id": "wk17gm1",
+            "away": "NYJ",
+            "home": "BUF",
+            "gametime": "2016-01-03T13:00:00-04:00"
+        },
+        {
+            "id": "wk17gm2",
+            "away": "NE",
+            "home": "MIA",
+            "gametime": "2016-01-03T13:00:00-04:00"
+        },
+        {
+            "id": "wk17gm3",
+            "away": "TB",
+            "home": "CAR",
+            "gametime": "2016-01-03T13:00:00-04:00"
+        },
+        {
+            "id": "wk17gm4",
+            "away": "NO",
+            "home": "ATL",
+            "gametime": "2016-01-03T13:00:00-04:00"
+        },
+        {
+            "id": "wk17gm5",
+            "away": "BAL",
+            "home": "CIN",
+            "gametime": "2016-01-03T13:00:00-04:00"
+        },
+        {
+            "id": "wk17gm6",
+            "away": "PIT",
+            "home": "CLE",
+            "gametime": "2016-01-03T13:00:00-04:00"
+        },
+        {
+            "id": "wk17gm7",
+            "away": "JAX",
+            "home": "HOU",
+            "gametime": "2016-01-03T13:00:00-04:00"
+        },
+        {
+            "id": "wk17gm8",
+            "away": "TEN",
+            "home": "IND",
+            "gametime": "2016-01-03T13:00:00-04:00"
+        },
+        {
+            "id": "wk17gm9",
+            "away": "OAK",
+            "home": "KC",
+            "gametime": "2016-01-03T13:00:00-04:00"
+        },
+        {
+            "id": "wk17gm10",
+            "away": "WSH",
+            "home": "DAL",
+            "gametime": "2016-01-03T13:00:00-04:00"
+        },
+        {
+            "id": "wk17gm11",
+            "away": "PHI",
+            "home": "NYG",
+            "gametime": "2016-01-03T13:00:00-04:00"
+        },
+        {
+            "id": "wk17gm12",
+            "away": "DET",
+            "home": "CHI",
+            "gametime": "2016-01-03T13:00:00-04:00"
+        },
+        {
+            "id": "wk17gm13",
+            "away": "MIN",
+            "home": "GB",
+            "gametime": "2016-01-03T13:00:00-04:00"
+        },
+        {
+            "id": "wk17gm14",
+            "away": "SD",
+            "home": "DEN",
+            "gametime": "2016-01-03T16:25:00-04:00"
+        },
+        {
+            "id": "wk17gm15",
+            "away": "SEA",
+            "home": "ARI",
+            "gametime": "2016-01-03T16:25:00-04:00"
+        },
+        {
+            "id": "wk17gm16",
+            "away": "STL",
+            "home": "SF",
+            "gametime": "2016-01-03T16:25:00-04:00"
+        }
+    ]
+}

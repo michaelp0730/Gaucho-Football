@@ -2,6 +2,7 @@
     $title = 'Gaucho Football';
     $pick_games_active = true;
     $view_picks_active = false;
+    $forum_active = false;
     $rules_active = false;
     $help_active = false;
     require './_includes/header.php';
@@ -13,9 +14,11 @@
             if (!empty($_SESSION['LoggedIn']) && !empty($_SESSION['Username'])) {
             ?>
                 <h1>Pick Games</h1>
-                <div class="alert alert-info" role="alert">
-                    Congrats to Chaz - our Week 17 winner!<br />
-                    Thanks for a great season; it's been a lot of fun!
+                <div id="home-alert" class="alert alert-info" role="alert">
+                    Welcome to Gaucho Football 2015. Week 1 picks are due Sunday Sept 13 at 10:00 am PST.
+                </div>
+                <div class="alert alert-warning" role="alert">
+                    When picking the total points tiebreaker for Week 1, go with the later game (MIN @ SF)
                 </div>
                 <div id="schedule-container"></div>
             <?php

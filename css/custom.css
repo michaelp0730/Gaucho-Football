@@ -23,9 +23,9 @@ h1, h2, h3, h4, h5, h6 { font-weight: 600; }
 }
 
 .team-icons-container {
-    position: relative;
-    float: right;
     width: 70%;
+    position: relative;
+    margin-left: 25%;
 }
 
 .at { font-weight: 600; font-size: 3em; }
@@ -71,6 +71,8 @@ textarea { width: 100%; min-height: 100px; }
     line-height: 1.5;
     margin: 1em 0;
 }
+
+.media-body { border-bottom: 1px solid #CCC; }
 
 .right { float: right !important; }
 .left { float: left !important; }

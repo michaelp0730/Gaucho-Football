@@ -1,0 +1,97 @@
+{
+    "id": "wk1",
+    "week": "Week 1",
+    "dates": "September 13, 14 - 2015",
+    "games": [
+        {
+            "id": "wk1gm1",
+            "away": "GB",
+            "home": "CHI",
+            "gametime": "2015-09-13T13:00:00-04:00"
+        },
+        {
+            "id": "wk1gm2",
+            "away": "KC",
+            "home": "HOU",
+            "gametime": "2015-09-13T13:00:00-04:00"
+        },
+        {
+            "id": "wk1gm3",
+            "away": "CLE",
+            "home": "NYJ",
+            "gametime": "2015-09-13T13:00:00-04:00"
+        },
+        {
+            "id": "wk1gm4",
+            "away": "IND",
+            "home": "BUF",
+            "gametime": "2015-09-13T13:00:00-04:00"
+        },
+        {
+            "id": "wk1gm5",
+            "away": "MIA",
+            "home": "WSH",
+            "gametime": "2015-09-13T13:00:00-04:00"
+        },
+        {
+            "id": "wk1gm6",
+            "away": "CAR",
+            "home": "JAX",
+            "gametime": "2015-09-13T13:00:00-04:00"
+        },
+        {
+            "id": "wk1gm7",
+            "away": "SEA",
+            "home": "STL",
+            "gametime": "2015-09-13T13:00:00-04:00"
+        },
+        {
+            "id": "wk1gm8",
+            "away": "NO",
+            "home": "ARI",
+            "gametime": "2015-09-13T16:05:00-04:00"
+        },
+        {
+            "id": "wk1gm9",
+            "away": "DET",
+            "home": "SD",
+            "gametime": "2015-09-13T16:05:00-04:00"
+        },
+        {
+            "id": "wk1gm10",
+            "away": "TEN",
+            "home": "TB",
+            "gametime": "2015-09-13T16:25:00-04:00"
+        },
+        {
+            "id": "wk1gm11",
+            "away": "CIN",
+            "home": "OAK",
+            "gametime": "2015-09-13T16:25:00-04:00"
+        },
+        {
+            "id": "wk1gm12",
+            "away": "BAL",
+            "home": "DEN",
+            "gametime": "2015-09-13T16:25:00-04:00"
+        },
+        {
+            "id": "wk1gm13",
+            "away": "NYG",
+            "home": "DAL",
+            "gametime": "2015-09-13T20:30:00-04:00"
+        },
+        {
+            "id": "wk1gm14",
+            "away": "PHI",
+            "home": "ATL",
+            "gametime": "2015-09-14T19:10:00-04:00"
+        },
+        {
+            "id": "wk1gm15",
+            "away": "MIN",
+            "home": "SF",
+            "gametime": "2015-09-14T22:20:00-04:00"
+        }
+    ]
+}

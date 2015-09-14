@@ -10,7 +10,7 @@
     <![endif] -->
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600" />
     <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="../css/custom.css" />
 </head>
 <body>
@@ -26,9 +26,10 @@
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="../index.php">Pick Games</a></li>
                     <li><a href="../view-picks.php">View Picks</a></li>
+                    <li><a href="../forum.php">Forum</a></li>
                     <li><a href="../rules.php">Rules</a></li>
                     <li><a href="../help.php">Help</a></li>
-                    <li class="dropdown abs-right">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?=$_SESSION['Username']?> <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li><a href="../logout.php">Sign Out</a></li>

@@ -1,0 +1,97 @@
+{
+    "id": "wk14",
+    "week": "Week 14",
+    "dates": "December 13, 14 - 2015",
+    "games": [
+        {
+            "id": "wk14gm1",
+            "away": "BUF",
+            "home": "PHI",
+            "gametime": "2015-12-13T13:00:00-04:00"
+        },
+        {
+            "id": "wk14gm2",
+            "away": "SF",
+            "home": "CLE",
+            "gametime": "2015-12-13T13:00:00-04:00"
+        },
+        {
+            "id": "wk14gm3",
+            "away": "DET",
+            "home": "STL",
+            "gametime": "2015-12-13T13:00:00-04:00"
+        },
+        {
+            "id": "wk14gm4",
+            "away": "NO",
+            "home": "TB",
+            "gametime": "2015-12-13T13:00:00-04:00"
+        },
+        {
+            "id": "wk14gm5",
+            "away": "TEN",
+            "home": "NYJ",
+            "gametime": "2015-12-13T13:00:00-04:00"
+        },
+        {
+            "id": "wk14gm6",
+            "away": "PIT",
+            "home": "CIN",
+            "gametime": "2015-12-13T13:00:00-04:00"
+        },
+        {
+            "id": "wk14gm7",
+            "away": "NE",
+            "home": "HOU",
+            "gametime": "2015-12-13T13:00:00-04:00"
+        },
+        {
+            "id": "wk14gm8",
+            "away": "IND",
+            "home": "JAX",
+            "gametime": "2015-12-13T13:00:00-04:00"
+        },
+        {
+            "id": "wk14gm9",
+            "away": "SD",
+            "home": "KC",
+            "gametime": "2015-12-13T13:00:00-04:00"
+        },
+        {
+            "id": "wk14gm10",
+            "away": "WSH",
+            "home": "CHI",
+            "gametime": "2015-12-13T13:00:00-04:00"
+        },
+        {
+            "id": "wk14gm11",
+            "away": "ATL",
+            "home": "CAR",
+            "gametime": "2015-12-13T13:00:00-04:00"
+        },
+        {
+            "id": "wk14gm12",
+            "away": "OAK",
+            "home": "DEN",
+            "gametime": "2015-12-13T16:05:00-04:00"
+        },
+        {
+            "id": "wk14gm13",
+            "away": "DAL",
+            "home": "GB",
+            "gametime": "2015-12-13T16:25:00-04:00"
+        },
+        {
+            "id": "wk14gm14",
+            "away": "SEA",
+            "home": "BAL",
+            "gametime": "2015-12-13T20:30:00-04:00"
+        },
+        {
+            "id": "wk14gm15",
+            "away": "NYG",
+            "home": "MIA",
+            "gametime": "2015-12-14T20:30:00-04:00"
+        }
+    ]
+}

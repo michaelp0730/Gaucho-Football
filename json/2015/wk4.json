@@ -1,0 +1,85 @@
+{
+    "id": "wk4",
+    "week": "Week 4",
+    "dates": "October 04, 05 - 2015",
+    "games": [
+        {
+            "id": "wk4gm1",
+            "away": "JAX",
+            "home": "IND",
+            "gametime": "2015-10-04T13:00:00-04:00"
+        },
+        {
+            "id": "wk4gm2",
+            "away": "NYG",
+            "home": "BUF",
+            "gametime": "2015-10-04T13:00:00-04:00"
+        },
+        {
+            "id": "wk4gm3",
+            "away": "CAR",
+            "home": "TB",
+            "gametime": "2015-10-04T13:00:00-04:00"
+        },
+        {
+            "id": "wk4gm4",
+            "away": "PHI",
+            "home": "WSH",
+            "gametime": "2015-10-04T13:00:00-04:00"
+        },
+        {
+            "id": "wk4gm5",
+            "away": "OAK",
+            "home": "CHI",
+            "gametime": "2015-10-04T13:00:00-04:00"
+        },
+        {
+            "id": "wk4gm6",
+            "away": "HOU",
+            "home": "ATL",
+            "gametime": "2015-10-04T13:00:00-04:00"
+        },
+        {
+            "id": "wk4gm7",
+            "away": "KC",
+            "home": "CIN",
+            "gametime": "2015-10-04T13:00:00-04:00"
+        },
+        {
+            "id": "wk4gm8",
+            "away": "CLE",
+            "home": "SD",
+            "gametime": "2015-10-04T16:05:00-04:00"
+        },
+        {
+            "id": "wk4gm9",
+            "away": "GB",
+            "home": "SF",
+            "gametime": "2015-10-04T16:25:00-04:00"
+        },
+        {
+            "id": "wk4gm10",
+            "away": "STL",
+            "home": "ARI",
+            "gametime": "2015-10-04T16:25:00-04:00"
+        },
+        {
+            "id": "wk4gm11",
+            "away": "MIN",
+            "home": "DEN",
+            "gametime": "2015-10-04T16:25:00-04:00"
+        },
+        {
+            "id": "wk4gm12",
+            "away": "DAL",
+            "home": "NO",
+            "gametime": "2015-10-04T20:30:00-04:00"
+        },
+        {
+            "id": "wk4gm13",
+            "away": "DET",
+            "home": "SEA",
+            "gametime": "2015-10-05T20:30:00-04:00"
+        }
+    ]
+}
