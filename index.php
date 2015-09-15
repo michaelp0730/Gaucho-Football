@@ -15,10 +15,7 @@
             ?>
                 <h1>Pick Games</h1>
                 <div id="home-alert" class="alert alert-info" role="alert">
-                    Welcome to Gaucho Football 2015. Week 1 picks are due Sunday Sept 13 at 10:00 am PST.
-                </div>
-                <div class="alert alert-warning" role="alert">
-                    When picking the total points tiebreaker for Week 1, go with the later game (MIN @ SF)
+                    Congrats to Tony &ndash; our Week 1 winner!
                 </div>
                 <div id="schedule-container"></div>
             <?php

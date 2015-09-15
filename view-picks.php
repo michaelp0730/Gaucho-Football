@@ -155,8 +155,8 @@
                                                 <td class="<?php if ($wk1row[11] == 'CIN') { echo 'success'; $wk1_total_wins++; } ?>"><?php echo $wk1row[11]; ?> </td>
                                                 <td class="<?php if ($wk1row[12] == 'DEN') { echo 'success'; $wk1_total_wins++; } ?>"><?php echo $wk1row[12]; ?> </td>
                                                 <td class="<?php if ($wk1row[13] == 'DAL') { echo 'success'; $wk1_total_wins++; } ?>"><?php echo $wk1row[13]; ?> </td>
-                                                <td class="<?php if ($wk1row[14] == '') { echo 'success'; $wk1_total_wins++; } ?>"><?php echo $wk1row[14]; ?> </td>
-                                                <td class="<?php if ($wk1row[15] == '') { echo 'success'; $wk1_total_wins++; } ?>"><?php echo $wk1row[15]; ?> </td>
+                                                <td class="<?php if ($wk1row[14] == 'ATL') { echo 'success'; $wk1_total_wins++; } ?>"><?php echo $wk1row[14]; ?> </td>
+                                                <td class="<?php if ($wk1row[15] == 'SF') { echo 'success'; $wk1_total_wins++; } ?>"><?php echo $wk1row[15]; ?> </td>
                                                 <td><?php echo $wk1row[16]; ?></td>
                                                 <td><?php echo $wk1_total_wins; ?></td>
                                             </tr>
