@@ -15,7 +15,7 @@
             ?>
                 <h1>Pick Games</h1>
                 <div id="home-alert" class="alert alert-info" role="alert">
-                    Congrats to Tony &ndash; our Week 1 winner!
+                    Congrats to Tony again in Week 2!
                 </div>
                 <div id="schedule-container"></div>
             <?php
