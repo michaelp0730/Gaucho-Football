@@ -461,8 +461,8 @@
                                                 <td class="<?php if ($wk3row[11] == 'ARI') { echo 'success'; $wk3_total_wins++; } ?>"><?php echo $wk3row[11]; ?> </td>
                                                 <td class="<?php if ($wk3row[12] == 'BUF') { echo 'success'; $wk3_total_wins++; } ?>"><?php echo $wk3row[12]; ?> </td>
                                                 <td class="<?php if ($wk3row[13] == 'SEA') { echo 'success'; $wk3_total_wins++; } ?>"><?php echo $wk3row[13]; ?> </td>
-                                                <td class="<?php if ($wk3row[14] == '') { echo 'success'; $wk3_total_wins++; } ?>"><?php echo $wk3row[14]; ?> </td>
-                                                <td class="<?php if ($wk3row[15] == '') { echo 'success'; $wk3_total_wins++; } ?>"><?php echo $wk3row[15]; ?> </td>
+                                                <td class="<?php if ($wk3row[14] == 'DEN') { echo 'success'; $wk3_total_wins++; } ?>"><?php echo $wk3row[14]; ?> </td>
+                                                <td class="<?php if ($wk3row[15] == 'GB') { echo 'success'; $wk3_total_wins++; } ?>"><?php echo $wk3row[15]; ?> </td>
                                                 <td><?php echo $wk3row[16]; ?></td>
                                                 <td><?php echo $wk3_total_wins; ?></td>
                                             </tr>
