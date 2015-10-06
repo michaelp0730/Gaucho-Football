@@ -15,7 +15,7 @@
             ?>
                 <h1>Pick Games</h1>
                 <div id="home-alert" class="alert alert-info" role="alert">
-                    Cooper wins week 3 on points. Sorry Dog.
+                    Tony wins! Again...
                 </div>
                 <div id="schedule-container"></div>
             <?php
