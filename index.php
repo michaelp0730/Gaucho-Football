@@ -15,7 +15,7 @@
             ?>
                 <h1>Pick Games</h1>
                 <div id="home-alert" class="alert alert-info" role="alert">
-                    Tony wins! Again...
+                    Congrats Coop! Son of a bitch...
                 </div>
                 <div id="schedule-container"></div>
             <?php
