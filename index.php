@@ -15,7 +15,7 @@
             ?>
                 <h1>Pick Games</h1>
                 <div id="home-alert" class="alert alert-info" role="alert">
-                    Pellegrini wins week 13
+                    Sophia wins week 17! Thanks for a great season!
                 </div>
                 <div id="schedule-container"></div>
             <?php
